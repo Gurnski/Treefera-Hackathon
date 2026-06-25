@@ -1,0 +1,30 @@
+{
+  "theme": "B",
+  "name": "Grinnell \u2014 regen ag detection",
+  "country": "USA",
+  "approx_size_km": "8 x 8",
+  "note": "Target field + 3-5 matched conventional neighbours within one rainfall regime.",
+  "geometry_type": "Polygon",
+  "coordinates": [
+    [
+      -92.76829444100761,
+      41.703963963963965
+    ],
+    [
+      -92.67170555899239,
+      41.703963963963965
+    ],
+    [
+      -92.67170555899239,
+      41.77603603603604
+    ],
+    [
+      -92.76829444100761,
+      41.77603603603604
+    ],
+    [
+      -92.76829444100761,
+      41.703963963963965
+    ]
+  ]
+}
