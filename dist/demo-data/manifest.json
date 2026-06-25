@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "_comment": "DEMO DATA — simulated. Tomorrow, overwrite this file with real notebook/Jupyter exports. Keep the same keys so the React app needs no changes. See src/types.ts for the contract.",
+  "generatedAt": "2026-06-24T00:00:00Z",
+  "dataSource": "simulated",
+
+  "projectName": "Regen Radar",
+  "challengeName": "Treefera Climate & Satellite Hackathon",
+  "tagline": "Detecting field-level regenerative agriculture signals from satellite time-series data",
+
+  "siteName": "Córrego Verde — Parcel 14",
+  "country": "Mato Grosso, Brazil",
+  "coordinates": { "lat": -13.6271, "lng": -56.0945 },
+  "areaHectares": 48.2,
+  "dateRange": { "start": "2022-01-01", "end": "2024-12-31" },
+  "satellite": "Sentinel-2 L2A (10m, simulated)",
+  "controlFieldCount": 6,
+
+  "score": 72,
+  "scoreLabel": "Medium-high signal",
+  "confidence": {
+    "level": "Moderate",
+    "value": 0.64,
+    "note": "Consistent multi-season divergence from controls, but no ground-truth confirmation."
+  },
+
+  "adoptionPeriod": {
+    "label": "Suspected adoption window",
+    "start": "2023-03-01",
+    "end": "2023-08-31"
+  },
+
+  "factors": [
+    {
+      "id": "ndvi_uplift",
+      "label": "NDVI uplift vs controls",
+      "detail": "+0.11 mean NDVI above the 6-field control average after the adoption window.",
+      "weight": 0.34,
+      "direction": "positive"
+    },
+    {
+      "id": "off_season_veg",
+      "label": "Off-season vegetation",
+      "detail": "Green cover persists into the dry season where controls go bare.",
+      "weight": 0.27,
+      "direction": "positive"
+    },
+    {
+      "id": "reduced_bare_soil",
+      "label": "Reduced bare-soil window",
+      "detail": "Bare-soil days per year dropped from ~74 to ~31.",
+      "weight": 0.24,
+      "direction": "positive"
+    },
+    {
+      "id": "change_point",
+      "label": "Change-point detected",
+      "detail": "Statistical break in the NDVI series aligns with the suspected adoption window.",
+      "weight": 0.15,
+      "direction": "positive"
+    }
+  ],
+
+  "aiInsight": {
+    "headline": "Persistent divergence from neighbouring controls",
+    "body": "The target field shows increased vegetation behaviour relative to neighbouring controls after the suspected adoption period. This suggests a possible regenerative agriculture signal, but should be validated against farm management records or ground truth.",
+    "model": "Prewritten (no live inference in this demo)",
+    "disclaimer": "Signal, not proof. This narrative is a heuristic summary of the metrics above."
+  },
+
+  "limitations": [
+    "Weather variability (rainfall, drought) can mimic or mask regenerative signals.",
+    "Crop rotation and cover cropping can raise NDVI without regenerative practices.",
+    "Sensor artefacts: clouds, shadows, and atmospheric correction add noise.",
+    "No ground truth — practices are inferred, not confirmed by the farm.",
+    "Field-boundary quality affects whether pixels represent only the target field."
+  ],
+
+  "nextSteps": [
+    "Cross-check the suspected adoption window against farm management records.",
+    "Acquire labelled examples of confirmed regenerative fields to calibrate the score.",
+    "Run cloud/shadow masking and atmospheric QA on the raw scenes.",
+    "Refine field boundaries with higher-resolution imagery or cadastral data.",
+    "Prioritise this parcel for on-the-ground verification given its medium-high signal."
+  ],
+
+  "images": {
+    "before": {
+      "src": "/demo-data/before.png",
+      "label": "Before — pre-adoption",
+      "date": "2022-08-15",
+      "caption": "Dry-season composite before the suspected adoption window. Replace with a real notebook-exported scene."
+    },
+    "after": {
+      "src": "/demo-data/after.png",
+      "label": "After — post-adoption",
+      "date": "2024-08-18",
+      "caption": "Dry-season composite after the suspected adoption window. Replace with a real notebook-exported scene."
+    }
+  },
+
+  "timeseriesPath": "/demo-data/ndvi_timeseries.json"
+}
