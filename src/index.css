@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink-950 text-slate-200 antialiased;
+  /* Layered ambient glows behind everything for depth */
+  background-image:
+    radial-gradient(60rem 60rem at 80% -10%, rgba(14, 165, 233, 0.12), transparent 60%),
+    radial-gradient(50rem 50rem at -10% 20%, rgba(34, 197, 94, 0.1), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 120%, rgba(56, 189, 248, 0.08), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Thin custom scrollbar to match the dark UI */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-ink-600 rounded-full;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+@layer components {
+  /* Reusable glass card surface */
+  .glass {
+    @apply relative rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl shadow-card;
+  }
+  .glass-hover {
+    @apply transition-all duration-300 hover:border-white/20 hover:bg-white/[0.05];
+  }
+  /* Small uppercase section eyebrow */
+  .eyebrow {
+    @apply text-[11px] font-semibold uppercase tracking-[0.2em] text-radar-300/80;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs font-medium text-slate-300;
+  }
+}
+
+/* A faint dotted grid texture used in hero/location visuals */
+.bg-dotgrid {
+  background-image: radial-gradient(rgba(125, 211, 252, 0.12) 1px, transparent 1px);
+  background-size: 26px 26px;
+}

@@ -1,0 +1,721 @@
+╭─── Claude Code v2.1.187 ─────────────────────────────────────────────────────╮
+│                                  │ Tips for getting started                  │
+│           Welcome back!          │ Run /init to create a CLAUDE.md file wit… │
+│                                  │ ───────────────────────────────────────── │
+│              ▐▛███▜▌             │ What's new                                │
+│             ▝▜█████▛▘            │ Bug fixes and reliability improvements    │
+│               ▘▘ ▝▝              │ Added `sandbox.credentials` setting to b… │
+│                                  │ Added org-configured model restrictions … │
+│   Opus 4.8 · API Usage Billing   │ /release-notes for more                   │
+│   ~\Desktop\Treefera Hackathon   │                                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+> Build a polished Vite + React + TypeScript + Tailwind single-page hackathon   
+  dashboard called “Regen Radar”.                                               
+                                                                                
+  Context:                                                                      
+  This is for a Treefera climate/satellite hackathon. The likely concept is     
+  detecting regenerative agriculture signals from satellite time-series data.   
+  The core thesis is: do not claim proof; show evidence/signal by comparing a   
+  target field’s vegetation behaviour against neighbouring/control fields over  
+  time.                                                                         
+                                                                                
+  Important architecture:                                                       
+                                                                                
+  * No backend for this first pass.                                             
+  * No live API calls.                                                          
+  * The React app must read simple static files from public/demo-data/.         
+  * Keep the data contract clean and easy to swap tomorrow when Python/Jupyter  
+  exports real outputs.                                                         
+  * Use simulated placeholder data for now, but structure it as if real         
+  notebook outputs will replace it.                                             
+  * Do not hardcode data all over components.                                   
+                                                                                
+  Create this structure:                                                        
+                                                                                
+  * public/demo-data/manifest.json                                              
+  * public/demo-data/ndvi_timeseries.json                                       
+  * public/demo-data/before.png placeholder or generated fallback               
+  * public/demo-data/after.png placeholder or generated fallback                
+  * src/types.ts                                                                
+  * src/lib/loadDemoData.ts                                                     
+  * src/components/GlobeHero.tsx                                                
+  * src/components/RegenScoreCard.tsx                                           
+  * src/components/TargetVsControlChart.tsx                                     
+  * src/components/EvidencePanel.tsx                                            
+  * src/components/AiInsightCard.tsx                                            
+  * src/components/LimitationsCard.tsx                                          
+  * src/components/ImpactPanel.tsx                                              
+  * src/App.tsx                                                                 
+                                                                                
+  UI direction:                                                                 
+  Make it look fantastic, premium, modern and memorable. Dark climate-tech      
+  interface. Think serious satellite intelligence product, not generic student  
+  dashboard. Use glassmorphism carefully, subtle gradients, clean typography,   
+  strong spacing, polished cards, animated section reveals if simple.           
+                                                                                
+  Core sections:                                                                
+                                                                                
+  1. Hero/location panel:                                                       
+                                                                                
+     * Project name: Regen Radar                                                
+     * Subtitle: “Detecting field-level regenerative agriculture signals from   
+  satellite time-series data”                                                   
+     * Include a globe/location visual. If react-globe.gl is simple to add, use 
+  it. If it creates dependency/WebGL trouble, make a beautiful fallback         
+  location card with coordinates and animated orbit/grid styling.               
+     * The globe/location should visually suggest zooming to the selected site. 
+                                                                                
+  2. Regen Signal Score:                                                        
+                                                                                
+     * Large score, e.g. 72/100                                                 
+     * Label: “Medium-high signal”                                              
+     * Show factor chips:                                                       
+                                                                                
+       * NDVI uplift vs controls                                                
+       * off-season vegetation                                                  
+       * reduced bare-soil window                                               
+       * change-point detected                                                  
+     * Include wording: “Signal, not proof.”                                    
+                                                                                
+  3. Target vs Control chart:                                                   
+                                                                                
+     * Read ndvi_timeseries.json.                                               
+     * Show target field NDVI and control average over time.                    
+     * Highlight suspected adoption/change period.                              
+     * Use Recharts if available/easy.                                          
+     * Make it clean and readable.                                              
+                                                                                
+  4. Before/after evidence:                                                     
+                                                                                
+     * Before and after image panels.                                           
+     * If image files are missing, show stylish placeholders instead of         
+  crashing.                                                                     
+     * Include captions explaining that real notebook-exported satellite        
+  outputs can replace these.                                                    
+                                                                                
+  5. AI Insight card:                                                           
+                                                                                
+     * Do not call OpenAI.                                                      
+     * Display a prewritten insight from manifest.json.                         
+     * Example insight: “The target field shows increased vegetation behaviour  
+  relative to neighbouring controls after the suspected adoption period. This   
+  suggests a possible regenerative agriculture signal, but should be validated  
+  against farm management records or ground truth.”                             
+                                                                                
+  6. Confidence + limitations:                                                  
+                                                                                
+     * Show confidence level.                                                   
+     * List limitations: weather, crop rotation, sensor artefacts, lack of      
+  ground truth, field boundary quality.                                         
+     * This must sound scientifically honest.                                   
+                                                                                
+  7. Impact / next validation:                                                  
+                                                                                
+     * Explain how this could help prioritise which fields deserve further      
+  investigation.                                                                
+     * Mention validation against management records, labelled data, or ground  
+  truth.                                                                        
+                                                                                
+  Data files:                                                                   
+  Create realistic simulated demo-data files:                                   
+  manifest.json should contain:                                                 
+                                                                                
+  * projectName                                                                 
+  * challengeName                                                               
+  * siteName                                                                    
+  * country                                                                     
+  * coordinates { lat, lng }                                                    
+  * dateRange                                                                   
+  * score                                                                       
+  * scoreLabel                                                                  
+  * factors                                                                     
+  * aiInsight                                                                   
+  * limitations                                                                 
+  * nextSteps                                                                   
+  * image paths                                                                 
+                                                                                
+  ndvi_timeseries.json should contain an array of dates with:                   
+                                                                                
+  * date                                                                        
+  * target                                                                      
+  * control                                                                     
+  * delta                                                                       
+  * phase or adoption flag                                                      
+                                                                                
+  Quality requirements:                                                         
+                                                                                
+  * Beautiful first impression matters.                                         
+  * Keep code clean and componentised.                                          
+  * Use TypeScript types.                                                       
+  * Add comments only where useful.                                             
+  * Make the app robust if files/images are missing.                            
+  * Avoid overengineering: no auth, no routing, no database, no backend.        
+  * Include clear notes in the code showing where tomorrow’s Python/Jupyter     
+  exports should overwrite the demo JSON/PNGs.                                  
+  * At the end, tell me the exact commands to install/run it and any packages   
+  added.                                                                        
+                                                                                
+
+● I'll build this out. Let me first check the current directory state.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+● There's a broken node shim shadowing the real node. Let me find the actual
+  node binary.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● There's a real node at C:\nvm4w\nodejs\node.exe. Let me verify it works.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Node v22 works at C:\nvm4w\nodejs\; the npm global shim is broken but the real
+  npm.cmd is fine. I'll scaffold the whole project manually for full control,
+  then install with the working node path. Let me set up a task list and build.
+
+● I'll decide tech choices upfront: Tailwind v3 (stable config), Recharts for
+  the chart, and a CSS/SVG globe fallback (no WebGL dependency risk for a
+  hackathon). Let me write all the config and source files.
+
+● Write(package.json)
+  ⎿  Wrote 26 lines to package.json
+       1 {
+       2   "name": "regen-radar",
+       3   "private": true,
+       4   "version": "0.1.0",
+       5   "type": "module",
+       6   "scripts": {
+       7     "dev": "vite",
+       8     "build": "tsc -b && vite build",
+       9     "preview": "vite preview"
+      10   },
+     … +16 lines (ctrl+o to expand)
+
+● Write(index.html)
+  ⎿  Wrote 23 lines to index.html
+       1 <!doctype html>
+       2 <html lang="en">
+       3   <head>
+       5     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+       6     <meta name="viewport" content="width=device-width, initial-s
+         cale=1.0" />
+       7     <meta
+       8       name="description"
+         agriculture signals from satellite time-series data."
+      10     />
+     … +18 lines (ctrl+o to expand)
+
+● Write(vite.config.ts)
+  ⎿  Wrote 7 lines to vite.config.ts
+      1 import { defineConfig } from "vite";
+      2 import react from "@vitejs/plugin-react";
+      3 
+      4 // No backend, no proxy — the app reads static files from /public
+        /demo-data.
+      5 export default defineConfig({
+      6   plugins: [react()],
+      7 });
+
+● Write(tsconfig.json)
+  ⎿  Wrote 22 lines to tsconfig.json
+       1 {
+       2   "compilerOptions": {
+       3     "target": "ES2020",
+       4     "useDefineForClassFields": true,
+       5     "lib": ["ES2020", "DOM", "DOM.Iterable"],
+       6     "module": "ESNext",
+       7     "skipLibCheck": true,
+       8     "moduleResolution": "bundler",
+       9     "allowImportingTsExtensions": true,
+      10     "resolveJsonModule": true,
+     … +12 lines (ctrl+o to expand)
+
+● Write(tsconfig.node.json)
+  ⎿  Wrote 12 lines to tsconfig.node.json
+       1 {
+       2   "compilerOptions": {
+       3     "composite": true,
+       4     "skipLibCheck": true,
+       5     "module": "ESNext",
+       6     "moduleResolution": "bundler",
+       7     "allowSyntheticDefaultImports": true,
+       8     "strict": true,
+       9     "noEmit": true
+      10   },
+     … +2 lines (ctrl+o to expand)
+
+● Write(postcss.config.js)
+  ⎿  Wrote 6 lines to postcss.config.js
+      1 export default {
+      2   plugins: {
+      3     tailwindcss: {},
+      4     autoprefixer: {},
+      5   },
+      6 };
+
+● Write(tailwind.config.js)
+  ⎿  Wrote 70 lines to tailwind.config.js
+       1 /** @type {import('tailwindcss').Config} */
+       2 export default {
+       3   content: ["./index.html", "./src/**/*.{ts,tsx}"],
+       4   theme: {
+       5     extend: {
+       6       fontFamily: {
+       7         sans: ["Inter", "system-ui", "sans-serif"],
+       8         mono: ["JetBrains Mono", "ui-monospace", "monospace"],
+       9       },
+      10       colors: {
+     … +63 lines (ctrl+o to expand)
+
+● Write(src\index.css)
+  ⎿  Wrote 58 lines to src\index.css
+       1 @tailwind base;
+       2 @tailwind components;
+       3 @tailwind utilities;
+       4 
+       5 :root {
+       6   color-scheme: dark;
+       7 }
+       8 
+       9 html,
+      10 body,
+     … +57 lines (ctrl+o to expand)
+
+● Write(src\main.tsx)
+  ⎿  Wrote 10 lines to src\main.tsx
+       1 import React from "react";
+       2 import ReactDOM from "react-dom/client";
+       3 import App from "./App";
+       4 import "./index.css";
+       5 
+         nt).render(
+       7   <React.StrictMode>
+       8     <App />
+       9   </React.StrictMode>
+      10 );
+     … +1 line (ctrl+o to expand)
+
+● Write(public\favicon.svg)  ⎿  Wrote 13 lines to public\favicon.svg
+       1 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+       2   <defs>
+       3     <radialGradient id="g" cx="50%" cy="40%" r="70%">
+       4       <stop offset="0%" stop-color="#7dd3fc" />
+       5       <stop offset="60%" stop-color="#0ea5e9" />
+       7     </radialGradient>
+       8   </defs>
+       9   <circle cx="16" cy="16" r="14" fill="url(#g)" />
+      10   <circle cx="16" cy="16" r="14" fill="none" stroke="#22c55e" st
+         roke-width="1.2" opacity="0.7" />
+     … +5 lines (ctrl+o to expand)
+
+● Config scaffold done. Now the demo-data files and a Node script to generate
+  before/after PNGs.
+
+● Write(public\demo-data\manifest.json)
+  ⎿  Wrote 103 lines to public\demo-data\manifest.json
+      1 {
+      2   "schemaVersion": "1.0.0",
+      3   "_comment": "DEMO DATA — simulated. Tomorrow, overwrite this fi
+        React app needs no changes. See src/types.ts for the contract.",
+      4   "generatedAt": "2026-06-24T00:00:00Z",
+      5   "dataSource": "simulated",
+      6 
+      7   "projectName": "Regen Radar",
+      9   "tagline": "Detecting field-level regenerative agriculture sign
+        als from satellite time-series data",
+     … +116 lines (ctrl+o to expand)
+
+● I'll generate the NDVI timeseries and PNG placeholders with a Node script for
+  realism, then delete the script.
+
+● Write(public\demo-data\_generate.mjs)
+  ⎿  Wrote 125 lines to public\demo-data\_generate.mjs
+       1 // One-off generator for simulated demo data.
+       2 // Produces ndvi_timeseries.json + before/after PNGs.
+       3 // NOT shipped to the app — run with node, then delete. Real not
+         ebook exports replace the outputs.
+       4 import { writeFileSync } from "node:fs";
+       6 import { dirname, join } from "node:path";
+       7 import zlib from "node:zlib";
+       8 
+       9 const __dirname = dirname(fileURLToPath(import.meta.url));
+      10 const OUT = __dirname;
+     … +135 lines (ctrl+o to expand)
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Data generated. Now remove the generator and write the TypeScript types +
+  loader.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Write(src\types.ts)
+  ⎿  Wrote 114 lines to src\types.ts
+       1 /**
+       2  * Data contract for Regen Radar.
+       3  *
+         tly.
+       5  * Tomorrow, a Python/Jupyter notebook can export real outputs t
+         o the same
+       6  * paths with the same shape — no component changes required.
+       7  *
+       9  *   - ndvi_timeseries.json   -> NdviPoint[]
+      10  *
+     … +107 lines (ctrl+o to expand)
+
+● Write(src\lib\loadDemoData.ts)
+  ⎿  Wrote 44 lines to src\lib\loadDemoData.ts
+       1 import type { DemoData, Manifest, NdviPoint } from "../types";
+       3 /**
+       4  * Loads the static demo data from /public/demo-data.
+       5  *
+         ON served by
+       7  * Vite. To swap in real data tomorrow, just overwrite the JSON 
+       8  * public/demo-data/ with notebook exports that match src/types.
+         ts.
+       9  *
+         l returns the
+     … +43 lines (ctrl+o to expand)
+
+● Now the components. I'll start with a small shared reveal-on-scroll helper,
+  then build each component.
+
+● Write(src\components\Reveal.tsx)
+  ⎿  Wrote 50 lines to src\components\Reveal.tsx
+       1 import { useEffect, useRef, useState, type ReactNode } from "rea
+         ct";
+       3 /**
+       4  * Lightweight scroll-reveal wrapper. Fades + lifts children int
+         o view once,
+         dependency-free.
+       6  */
+       7 export function Reveal({
+       9   delay = 0,
+      10   className = "",
+     … +44 lines (ctrl+o to expand)
+
+● Write(src\components\GlobeHero.tsx)
+  ⎿  Wrote 200 lines to src\components\GlobeHero.tsx
+       1 import type { Coordinates, DateRange } from "../types";
+       2 
+       3 interface GlobeHeroProps {
+       4   projectName: string;
+       5   tagline: string;
+       6   challengeName: string;
+       7   siteName: string;
+       8   country: string;
+       9   coordinates: Coordinates;
+      10   areaHectares: number;
+     … +234 lines (ctrl+o to expand)
+
+● Write(src\components\RegenScoreCard.tsx)
+  ⎿  Wrote 143 lines to src\components\RegenScoreCard.tsx
+       1 import type { Confidence, Factor } from "../types";
+       2 
+       3 interface RegenScoreCardProps {
+       4   score: number; // 0..100
+       5   scoreLabel: string;
+       6   factors: Factor[];
+       7   confidence: Confidence;
+       8 }
+       9 
+      10 /**
+     … +153 lines (ctrl+o to expand)
+
+● Now the chart component using Recharts.
+
+● Write(src\components\TargetVsControlChart.tsx)
+  ⎿  Wrote 195 lines to src\components\TargetVsControlChart.tsx
+       1 import {
+       2   Area,
+       3   CartesianGrid,
+       4   ComposedChart,
+       5   Legend,
+       6   Line,
+       7   ReferenceArea,
+       8   ResponsiveContainer,
+       9   Tooltip,
+      10   XAxis,
+     … +208 lines (ctrl+o to expand)
+
+● Now the EvidencePanel with robust image fallback.
+
+● API Error: The operation timed out.
+
+✻ Brewed for 19m 35s
+
+> Continue from where you left off                                              
+● Write(src\components\EvidencePanel.tsx)
+  ⎿  Wrote 115 lines to src\components\EvidencePanel.tsx
+       1 import { useState } from "react";
+       2 import type { EvidenceImage } from "../types";
+       3 
+       4 interface EvidencePanelProps {
+       5   before: EvidenceImage;
+       6   after: EvidenceImage;
+       7 }
+       8 
+       9 /**
+      10  * Before/after satellite evidence.
+     … +123 lines (ctrl+o to expand)
+
+● The Reticle SVG path uses invalid 100% syntax. Let me fix it with corner
+  brackets done properly.
+
+● Update(src\components\EvidencePanel.tsx)
+  ⎿  Added 11 lines, removed 3 lines
+      106  }
+      107  
+      108  function Reticle() {
+      109 +  // Corner brackets via viewBox coords; scales with the tile.
+      110    return (
+      110 -    <svg className="pointer-events-none absolute inset-0 h-ful
+          -l w-full text-white/20" fill="none">                          
+      111 -      <path d="M12 12h18M12 12v18" stroke="currentColor" strok
+          -eWidth="1.5" />                                               
+      112 -      <path d="M100% 12h-18M100% 12v18" stroke="currentColor" 
+          -strokeWidth="1.5" transform="translate(0,0)" />               
+      111 +    <svg                                                      
+      112 +      viewBox="0 0 100 75"                                    
+      113 +      preserveAspectRatio="none"                              
+      114 +      className="pointer-events-none absolute inset-0 h-full w
+          +-full text-white/25"                                          
+      115 +      fill="none"                                             
+      116 +    >                                                         
+      117 +      <path d="M4 4h8M4 4v8" stroke="currentColor" strokeWidth
+          +="0.8" />                                                     
+      118 +      <path d="M96 4h-8M96 4v8" stroke="currentColor" strokeWi
+          +dth="0.8" />                                                  
+      119 +      <path d="M4 71h8M4 71v-8" stroke="currentColor" strokeWi
+          +dth="0.8" />                                                  
+      120 +      <path d="M96 71h-8M96 71v-8" stroke="currentColor" strok
+          +eWidth="0.8" />                                               
+      121      </svg>
+      122    );
+      123  }
+
+● Now the remaining three cards.
+
+● Write(src\components\AiInsightCard.tsx)
+  ⎿  Wrote 62 lines to src\components\AiInsightCard.tsx
+       1 import type { AiInsight } from "../types";
+       2 
+       3 interface AiInsightCardProps {
+       4   insight: AiInsight;
+       5 }
+       7 /**
+       8  * AI Insight card.
+       9  *
+      10  * NO live model calls. The narrative is prewritten in manifest.
+         json
+     … +65 lines (ctrl+o to expand)
+
+● Write(src\components\LimitationsCard.tsx)
+  ⎿  Wrote 56 lines to src\components\LimitationsCard.tsx
+       1 import type { Confidence } from "../types";
+       2 
+       3 interface LimitationsCardProps {
+       5   limitations: string[];
+       6 }
+       7 
+       8 /**
+       9  * Confidence + limitations. This is the scientific-honesty sect
+      10  * the confidence level and enumerates what could confound the s
+         ignal.
+     … +57 lines (ctrl+o to expand)
+
+● Write(src\components\ImpactPanel.tsx)
+  ⎿  Wrote 53 lines to src\components\ImpactPanel.tsx
+       1 interface ImpactPanelProps {
+       2   nextSteps: string[];
+       4 }
+       5 
+       6 /**
+         eciding which
+       8  * fields deserve scarce ground-truth investigation — and lays o
+         ut the concrete
+         uth).
+      10  */
+     … +57 lines (ctrl+o to expand)
+
+● Now App.tsx to tie it all together with load/error states.
+
+● Write(src\App.tsx)
+  ⎿  Wrote 153 lines to src\App.tsx
+       1 import { useEffect, useState } from "react";
+       2 import { loadDemoData } from "./lib/loadDemoData";
+       3 import type { DemoData } from "./types";
+       4 import { Reveal } from "./components/Reveal";
+       5 import { GlobeHero } from "./components/GlobeHero";
+       7 import { TargetVsControlChart } from "./components/TargetVsContr
+         olChart";
+       8 import { EvidencePanel } from "./components/EvidencePanel";
+       9 import { AiInsightCard } from "./components/AiInsightCard";
+      10 import { LimitationsCard } from "./components/LimitationsCard";
+     … +156 lines (ctrl+o to expand)
+
+● Now install deps and build. The npm shim is broken, so I'll use the real
+  npm.cmd directly and put node on PATH for the session.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Task Output bieiyvrgz
+  ⎿  (No output)
+
+● Task Output bieiyvrgz
+  ⎿  npm.cmd : npm warn deprecated recharts@2.15.4: 1.x and 2.x branches ar
+     e no longer active. Bump to
+     Recharts v3 to receive latest features and bugfixes. See
+     … +24 lines (ctrl+o to expand)
+
+● Background command "Install dependencies" completed (exit code 0)
+
+● Install succeeded but esbuild's postinstall was blocked by npm's allow-scripts
+  policy — Vite needs it. Let me approve it and build.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+● Now let me run the build to verify everything compiles.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● The tsconfig.node.json referenced project needs composite without noEmit. The
+  fix is to set noEmit: false plus emitDeclarationOnly won't work either —
+  simplest is to remove noEmit from the node config since composite requires
+  emit. Let me fix it.
+
+● Update(tsconfig.node.json)
+  ⎿  Added 4 lines, removed 1 line
+       1  {
+       2    "compilerOptions": {
+       3      "composite": true,
+       4 +    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbui
+         +ldinfo",                                                       
+       5      "skipLibCheck": true,
+       6      "module": "ESNext",
+       7      "moduleResolution": "bundler",
+       8      "allowSyntheticDefaultImports": true,
+       9      "strict": true,
+       9 -    "noEmit": true                                             
+      10 +    "noEmit": false,                                           
+      11 +    "emitDeclarationOnly": true,                               
+      12 +    "outDir": "./node_modules/.tmp"                            
+      13    },
+      14    "include": ["vite.config.ts"]
+      15  }
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Two errors: unused Legend import, and import.meta.env needs vite client types.
+  Let me fix both.
+
+● Update(src\components\TargetVsControlChart.tsx)
+  ⎿  Removed 1 line
+      2    Area,
+      3    CartesianGrid,
+      4    ComposedChart,
+      5 -  Legend,                                                       
+      5    Line,
+      6    ReferenceArea,
+      7    ResponsiveContainer,
+
+● Write(src\vite-env.d.ts)
+  ⎿  Wrote 1 lines to src\vite-env.d.ts
+      1 /// <reference types="vite/client" />
+
+  Ran 1 shell command (ctrl+o to expand)
+● Build succeeds (the PowerShell "NativeCommandError" is just Vite's chunk-size
+  warning on stderr, not a failure). Let me smoke-test the dev server to confirm
+  it serves the data files correctly.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● All routes serve 200. Let me clean up the temp smoke-test files.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Let me add a .gitignore so node_modules/dist aren't committed.
+
+● Write(.gitignore)
+  ⎿  Wrote 21 lines to .gitignore
+       1 # dependencies
+       2 node_modules/
+       3 
+       4 # build output
+       5 dist/
+       6 dist-ssr/
+       7 
+       8 # vite / ts caches
+       9 *.tsbuildinfo
+      10 node_modules/.tmp/
+     … +11 lines (ctrl+o to expand)
+
+● Done. Regen Radar is built, type-checks clean, the production build passes,
+  and the dev server serves the app plus all three static data routes (200s).
+
+  What you've got
+
+  A dark, glassmorphic single-page satellite-intelligence dashboard. All seven
+  sections are wired to static data, no backend or live API calls:
+
+  1. GlobeHero — hand-built SVG/CSS orbital globe with animated radar sweep,
+  pulsing site marker, and a "TARGET LOCK" coordinate readout. I deliberately
+  skipped react-globe.gl to avoid WebGL/dependency risk in a demo; the fallback
+  reads like the real thing and has zero extra deps.
+  2. RegenScoreCard — animated radial gauge (72/100, "Medium-high signal"),
+  factor chips with weight bars, and a "Signal, not proof" badge.
+  3. TargetVsControlChart — Recharts composed chart, target NDVI area vs control
+  dashed line, with the suspected adoption window shaded. Empty-state if the
+  timeseries is missing.
+  4. EvidencePanel — before/after tiles. If a PNG fails to load it swaps to a
+  CSS placeholder (no broken-image icon), captions note real exports can replace
+  them.
+  5. AiInsightCard — prewritten narrative from manifest.json, no OpenAI call,
+  with an honest disclaimer.
+  6. LimitationsCard — confidence meter + the five scientific caveats.
+  7. ImpactPanel — the triage thesis and concrete validation path.
+
+  Data contract (the swap-tomorrow part)
+
+  - public/demo-data/manifest.json, ndvi_timeseries.json, before.png, after.png
+  - src/types.ts mirrors the JSON exactly; src/lib/loadDemoData.ts is the single
+  fetch point and reads the timeseries path from the manifest.
+  - Nothing is hardcoded in components — they take typed props from the loaded
+  data.
+  - To go live: overwrite those four files with notebook exports matching
+  types.ts. Comments in the JSON and types call this out.
+
+  Commands to run it
+
+  Your global npm/node shim on PATH is broken
+  (C:\Users\danie\AppData\Roaming\npm\node), but the real toolchain at
+  C:\nvm4w\nodejs works. Easiest fix going forward — put it first on PATH for
+  the session:
+
+  $env:Path = "C:\nvm4w\nodejs;" + $env:Path
+  cd "C:\Users\danie\Desktop\Treefera Hackathon"
+  npm install        # already done
+  npm run dev        # http://localhost:5173
+  npm run build      # type-check + production build to dist/
+  npm run preview    # serve the built dist/
+
+  One gotcha: your npm has allow-scripts enabled, which blocked esbuild's
+  postinstall (Vite needs it). I already ran npm approve-scripts esbuild, so
+  it's handled — but if you ever blow away node_modules and reinstall, run that
+  again or npm run dev will fail.
+
+  Packages added
+
+  - Runtime: react, react-dom, recharts
+  - Dev: vite, @vitejs/plugin-react, typescript, @types/react, @types/react-dom,
+  tailwindcss (v3), postcss, autoprefixer
+
+  Note: Recharts logged a v2-deprecation warning and the JS bundle is ~573 kB
+  (mostly Recharts) — fine for a hackathon demo, but worth code-splitting later
+  if you care about load time.
+
+✻ Cooked for 21m 11s
+
+※ recap: Built Regen Radar, a Vite/React/TS/Tailwind satellite dashboard with all seven sections wired to static demo data. The build passes and the dev server serves everything. Next: run `npm run dev` to view it in the browser. (disable recaps in /config)
