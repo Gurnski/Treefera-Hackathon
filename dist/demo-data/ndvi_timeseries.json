@@ -1,290 +1,758 @@
 [
   {
-    "date": "2022-01",
-    "target": 0.478,
-    "control": 0.521,
-    "delta": -0.043,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-01-01",
+    "ndvi":0.2914539576,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-02",
-    "target": 0.584,
-    "control": 0.593,
-    "delta": -0.009,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-02-01",
+    "ndvi":0.1736359298,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-03",
-    "target": 0.662,
-    "control": 0.654,
-    "delta": 0.008,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-03-01",
+    "ndvi":0.2392164171,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-04",
-    "target": 0.671,
-    "control": 0.663,
-    "delta": 0.008,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-04-01",
+    "ndvi":0.3627327085,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-05",
-    "target": 0.679,
-    "control": 0.658,
-    "delta": 0.021,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-05-01",
+    "ndvi":0.3696345091,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-06",
-    "target": 0.574,
-    "control": 0.606,
-    "delta": -0.032,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-06-01",
+    "ndvi":0.3808086514,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-07",
-    "target": 0.516,
-    "control": 0.525,
-    "delta": -0.009,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-07-01",
+    "ndvi":0.6522465348,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-08",
-    "target": 0.431,
-    "control": 0.407,
-    "delta": 0.024,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-08-01",
+    "ndvi":0.7083382607,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-09",
-    "target": 0.351,
-    "control": 0.341,
-    "delta": 0.01,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-09-01",
+    "ndvi":0.5091515183,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-10",
-    "target": 0.333,
-    "control": 0.311,
-    "delta": 0.022,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-10-01",
+    "ndvi":0.4347054362,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-11",
-    "target": 0.352,
-    "control": 0.347,
-    "delta": 0.005,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-11-01",
+    "ndvi":0.3559298813,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2022-12",
-    "target": 0.392,
-    "control": 0.406,
-    "delta": -0.014,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2017-12-01",
+    "ndvi":0.2397092283,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-01",
-    "target": 0.5,
-    "control": 0.492,
-    "delta": 0.008,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2018-01-01",
+    "ndvi":0.2827198803,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-02",
-    "target": 0.573,
-    "control": 0.565,
-    "delta": 0.008,
-    "phase": "baseline",
-    "adoption": false
+    "time":"2018-02-01",
+    "ndvi":0.2836169004,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-03",
-    "target": 0.72,
-    "control": 0.652,
-    "delta": 0.068,
-    "phase": "adoption",
-    "adoption": true
+    "time":"2018-03-01",
+    "ndvi":0.2312333584,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-04",
-    "target": 0.709,
-    "control": 0.691,
-    "delta": 0.018,
-    "phase": "adoption",
-    "adoption": true
+    "time":"2018-04-01",
+    "ndvi":0.2362005711,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-05",
-    "target": 0.681,
-    "control": 0.652,
-    "delta": 0.029,
-    "phase": "adoption",
-    "adoption": true
+    "time":"2018-05-01",
+    "ndvi":0.3369279802,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-06",
-    "target": 0.654,
-    "control": 0.594,
-    "delta": 0.06,
-    "phase": "adoption",
-    "adoption": true
+    "time":"2018-06-01",
+    "ndvi":0.5441604257,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-07",
-    "target": 0.539,
-    "control": 0.521,
-    "delta": 0.018,
-    "phase": "adoption",
-    "adoption": true
+    "time":"2018-07-01",
+    "ndvi":0.7657884359,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-08",
-    "target": 0.455,
-    "control": 0.423,
-    "delta": 0.032,
-    "phase": "adoption",
-    "adoption": true
+    "time":"2018-08-01",
+    "ndvi":0.750880003,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-09",
-    "target": 0.458,
-    "control": 0.366,
-    "delta": 0.092,
-    "phase": "post",
-    "adoption": false
+    "time":"2018-09-01",
+    "ndvi":0.388384223,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-10",
-    "target": 0.452,
-    "control": 0.306,
-    "delta": 0.146,
-    "phase": "post",
-    "adoption": false
+    "time":"2018-10-01",
+    "ndvi":0.3830776513,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-11",
-    "target": 0.461,
-    "control": 0.359,
-    "delta": 0.102,
-    "phase": "post",
-    "adoption": false
+    "time":"2018-11-01",
+    "ndvi":0.348588109,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2023-12",
-    "target": 0.526,
-    "control": 0.411,
-    "delta": 0.115,
-    "phase": "post",
-    "adoption": false
+    "time":"2018-12-01",
+    "ndvi":0.2896737456,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-01",
-    "target": 0.58,
-    "control": 0.481,
-    "delta": 0.099,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-01-01",
+    "ndvi":0.1878526956,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-02",
-    "target": 0.702,
-    "control": 0.571,
-    "delta": 0.131,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-02-01",
+    "ndvi":0.2079097182,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-03",
-    "target": 0.753,
-    "control": 0.659,
-    "delta": 0.094,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-03-01",
+    "ndvi":0.2286377698,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-04",
-    "target": 0.787,
-    "control": 0.699,
-    "delta": 0.088,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-04-01",
+    "ndvi":0.2193101048,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-05",
-    "target": 0.76,
-    "control": 0.642,
-    "delta": 0.118,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-05-01",
+    "ndvi":null,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-06",
-    "target": 0.693,
-    "control": 0.574,
-    "delta": 0.119,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-06-01",
+    "ndvi":0.4008663297,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-07",
-    "target": 0.642,
-    "control": 0.479,
-    "delta": 0.163,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-07-01",
+    "ndvi":0.7023695707,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-08",
-    "target": 0.571,
-    "control": 0.386,
-    "delta": 0.185,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-08-01",
+    "ndvi":0.7378934622,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-09",
-    "target": 0.537,
-    "control": 0.323,
-    "delta": 0.214,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-09-01",
+    "ndvi":0.6548377872,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-10",
-    "target": 0.508,
-    "control": 0.307,
-    "delta": 0.201,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-10-01",
+    "ndvi":0.421024859,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-11",
-    "target": 0.538,
-    "control": 0.336,
-    "delta": 0.202,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-11-01",
+    "ndvi":0.358725369,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   },
   {
-    "date": "2024-12",
-    "target": 0.594,
-    "control": 0.41,
-    "delta": 0.184,
-    "phase": "post",
-    "adoption": false
+    "time":"2019-12-01",
+    "ndvi":0.3280313611,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":0.2674276531,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":0.2510508299,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.2288650721,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.3248543739,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.3728167415,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.5476413369,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.7487350702,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.7039568424,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.5292839408,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.3609972596,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.3260335624,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.3528352976,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.0092767961,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":0.0172721762,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":0.2334393263,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.3125849068,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.3691119254,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.4787296057,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.7508092523,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.733843267,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.4768339694,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.3484659791,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.3330972493,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.2920972705,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":0.0270203259,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.1986563653,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.2100672722,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.2677835524,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.3746995926,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.4665398896,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.7317695022,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.730919838,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.5987141728,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.3718481958,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.2802093327,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.2608751953,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":0.1731074601,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.2292205691,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.2224912792,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.2702603042,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.3698132634,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.6003677249,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.7421270013,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.7333366275,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.6183991432,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.3553543389,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.3101677895,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.2845379114,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.1829489917,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.2385655642,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.2521953583,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.32800138,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.4238818586,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.5769568086,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.7383268476,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.7722184658,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.7381385565,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.352612108,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.277567029,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.2534095645,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":0.1519211531,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.1952428222,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.2288061678,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.2766065001,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.3653055429,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.5833814144,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.7774708271,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.7855545282,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.5103026628,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.3600302041,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.3187554181,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":0.1720232368,
+    "scope":"aoi_mean",
+    "method":"sentinel2_baseline_harmonised",
+    "note":"AOI-level sanity check, not field-level proof"
   }
 ]

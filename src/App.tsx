@@ -5,6 +5,7 @@ import { Reveal } from "./components/Reveal";
 import { GlobeHero } from "./components/GlobeHero";
 import { RegenScoreCard } from "./components/RegenScoreCard";
 import { TargetVsControlChart } from "./components/TargetVsControlChart";
+import { RogerFieldChart } from "./components/RogerFieldChart";
 import { EvidencePanel } from "./components/EvidencePanel";
 import { AiInsightCard } from "./components/AiInsightCard";
 import { LimitationsCard } from "./components/LimitationsCard";
@@ -37,7 +38,12 @@ export default function App() {
   if (state.status === "loading") return <LoadingScreen />;
   if (state.status === "error") return <ErrorScreen message={state.message} />;
 
-  const { manifest: m, timeseries } = state.data;
+  const {
+    manifest: m,
+    timeseries,
+    rogerFieldTimeseries,
+    rogerFieldSummary,
+  } = state.data;
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-24 pt-6 sm:px-6 lg:px-8">
@@ -52,6 +58,14 @@ export default function App() {
         dateRange={m.dateRange}
         satellite={m.satellite}
       />
+
+      {/* Roger Field Chart — primary signal (up top, hero chart) */}
+      <Reveal className="mt-6">
+        <RogerFieldChart
+          timeseries={rogerFieldTimeseries ?? []}
+          summary={rogerFieldSummary}
+        />
+      </Reveal>
 
       {/* Score + AI insight */}
       <div className="mt-6 grid gap-6 lg:grid-cols-[1.25fr_1fr]">
@@ -68,14 +82,14 @@ export default function App() {
         </Reveal>
       </div>
 
-      {/* Chart */}
-      <Reveal className="mt-6">
-        <TargetVsControlChart data={timeseries} adoptionPeriod={m.adoptionPeriod} />
-      </Reveal>
-
-      {/* Evidence */}
+      {/* AOI evidence (Roger field + AOI) */}
       <Reveal className="mt-6">
         <EvidencePanel before={m.images.before} after={m.images.after} />
+      </Reveal>
+
+      {/* AOI piggyback (behind RO lines) + ROi study ... */}
+      <Reveal className="mt-6">
+        <TargetVsControlChart data={timeseries} adoptionPeriod={m.adoptionPeriod} />
       </Reveal>
 
       {/* Limitations + impact */}

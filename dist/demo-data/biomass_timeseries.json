@@ -1,0 +1,200 @@
+[
+  {
+    "category":"above-ground",
+    "year":2007,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2007.tif",
+    "mean":4.415443,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2010,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2010.tif",
+    "mean":4.271851,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2015,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2015.tif",
+    "mean":6.456079,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2016,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2016.tif",
+    "mean":12.373275,
+    "median":1.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2017,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2017.tif",
+    "mean":6.261446,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2018,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2018.tif",
+    "mean":3.933735,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2019,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2019.tif",
+    "mean":5.463965,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2020,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2020.tif",
+    "mean":9.386199,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2021,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2021.tif",
+    "mean":2.318839,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"above-ground",
+    "year":2022,
+    "file":"esa_biomass_agb_cog_CLIENT_61785376_2022.tif",
+    "mean":3.512815,
+    "median":0.0,
+    "valid_pixels":9130,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2013,
+    "file":"agb_map_CLIENT_61785376_2013.tif",
+    "mean":8.551986,
+    "median":6.731479,
+    "valid_pixels":71550,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2014,
+    "file":"agb_map_CLIENT_61785376_2014.tif",
+    "mean":9.795602,
+    "median":8.638532,
+    "valid_pixels":71529,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2015,
+    "file":"agb_map_CLIENT_61785376_2015.tif",
+    "mean":9.836635,
+    "median":8.707111,
+    "valid_pixels":71513,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2016,
+    "file":"agb_map_CLIENT_61785376_2016.tif",
+    "mean":9.702239,
+    "median":7.506601,
+    "valid_pixels":71441,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2017,
+    "file":"agb_map_CLIENT_61785376_2017.tif",
+    "mean":5.968938,
+    "median":4.026824,
+    "valid_pixels":71089,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2018,
+    "file":"agb_map_CLIENT_61785376_2018.tif",
+    "mean":7.116212,
+    "median":5.962173,
+    "valid_pixels":71415,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2019,
+    "file":"agb_map_CLIENT_61785376_2019.tif",
+    "mean":22.880169,
+    "median":17.553795,
+    "valid_pixels":71463,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2020,
+    "file":"agb_map_CLIENT_61785376_2020.tif",
+    "mean":5.978363,
+    "median":4.614,
+    "valid_pixels":71422,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2021,
+    "file":"agb_map_CLIENT_61785376_2021.tif",
+    "mean":11.355213,
+    "median":9.076711,
+    "valid_pixels":71475,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2022,
+    "file":"agb_map_CLIENT_61785376_2022.tif",
+    "mean":6.611709,
+    "median":5.584661,
+    "valid_pixels":71379,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2023,
+    "file":"agb_map_CLIENT_61785376_2023.tif",
+    "mean":8.181121,
+    "median":6.595582,
+    "valid_pixels":71491,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  },
+  {
+    "category":"deep",
+    "year":2024,
+    "file":"agb_map_CLIENT_61785376_2024.tif",
+    "mean":6.782057,
+    "median":5.40356,
+    "valid_pixels":71345,
+    "note":"AOI-level biomass context only; coarse\/noisy, not field-level proof"
+  }
+]

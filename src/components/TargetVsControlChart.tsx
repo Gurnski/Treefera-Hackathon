@@ -37,9 +37,9 @@ export function TargetVsControlChart({
     <div className="glass glass-hover p-6 sm:p-8">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <div className="eyebrow">Target vs Control · NDVI</div>
+          <div className="eyebrow">AOI-level NDVI · Support</div>
           <h3 className="mt-1 text-lg font-semibold text-white">
-            Vegetation trajectory against neighbouring fields
+            Baseline-harmonised NDVI across the full AOI
           </h3>
         </div>
         <Legend2 />
@@ -121,9 +121,8 @@ export function TargetVsControlChart({
       </div>
 
       <p className="mt-4 text-xs leading-relaxed text-slate-500">
-        Control average is the mean NDVI of neighbouring fields. Divergence after
-        the highlighted window is the core signal — interpret it as evidence to
-        investigate, not confirmation.
+        Support file: AOI-level NDVI before/after the switch to no-till. For full
+        target-vs-control verification, real neighbour polygons are needed.
       </p>
     </div>
   );

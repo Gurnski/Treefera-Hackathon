@@ -1,0 +1,26 @@
+{
+  "method": "Roger target field NDVI extracted using true polygon mask reprojected from EPSG:4326 to EPSG:32615, with Sentinel-2 baseline harmonisation applied first",
+  "scope": "Roger target field polygon",
+  "warning": "Target field only. Neighbour/control polygons are still required for full target-vs-control proof.",
+  "estimated_pixel_count": 3608,
+  "periods": {
+    "pre_adoption_2017_2020": {
+      "mean_ndvi": 0.5923,
+      "median_ndvi": 0.5357,
+      "max_ndvi": 0.8206,
+      "observations": 14
+    },
+    "cover_crop_period_2021_2022": {
+      "mean_ndvi": 0.5865,
+      "median_ndvi": 0.5627,
+      "max_ndvi": 0.7246,
+      "observations": 8
+    },
+    "no_till_period_2023_2025": {
+      "mean_ndvi": 0.6303,
+      "median_ndvi": 0.6937,
+      "max_ndvi": 0.7281,
+      "observations": 12
+    }
+  }
+}

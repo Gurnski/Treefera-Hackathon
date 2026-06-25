@@ -1,0 +1,866 @@
+[
+  {
+    "time":"2017-01-01",
+    "roger_ndvi":0.29605636,
+    "aoi_ndvi":0.2914539576,
+    "difference_roger_minus_aoi":0.0046024024,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-02-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.1736359298,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-03-01",
+    "roger_ndvi":0.2266771495,
+    "aoi_ndvi":0.2392164171,
+    "difference_roger_minus_aoi":-0.0125392676,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-04-01",
+    "roger_ndvi":0.3060433567,
+    "aoi_ndvi":0.3627327085,
+    "difference_roger_minus_aoi":-0.0566893518,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-05-01",
+    "roger_ndvi":0.2810062766,
+    "aoi_ndvi":0.3696345091,
+    "difference_roger_minus_aoi":-0.0886282325,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-06-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.3808086514,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-07-01",
+    "roger_ndvi":0.7378199697,
+    "aoi_ndvi":0.6522465348,
+    "difference_roger_minus_aoi":0.0855734349,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-08-01",
+    "roger_ndvi":0.7554061413,
+    "aoi_ndvi":0.7083382607,
+    "difference_roger_minus_aoi":0.0470678806,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-09-01",
+    "roger_ndvi":0.5397183895,
+    "aoi_ndvi":0.5091515183,
+    "difference_roger_minus_aoi":0.0305668712,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-10-01",
+    "roger_ndvi":0.39917171,
+    "aoi_ndvi":0.4347054362,
+    "difference_roger_minus_aoi":-0.0355337262,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-11-01",
+    "roger_ndvi":0.2609211206,
+    "aoi_ndvi":0.3559298813,
+    "difference_roger_minus_aoi":-0.0950087607,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2017-12-01",
+    "roger_ndvi":0.2258168757,
+    "aoi_ndvi":0.2397092283,
+    "difference_roger_minus_aoi":-0.0138923526,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-01-01",
+    "roger_ndvi":0.2230050564,
+    "aoi_ndvi":0.2827198803,
+    "difference_roger_minus_aoi":-0.0597148239,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-02-01",
+    "roger_ndvi":0.244996503,
+    "aoi_ndvi":0.2836169004,
+    "difference_roger_minus_aoi":-0.0386203974,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-03-01",
+    "roger_ndvi":0.1893796027,
+    "aoi_ndvi":0.2312333584,
+    "difference_roger_minus_aoi":-0.0418537557,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-04-01",
+    "roger_ndvi":0.1956058145,
+    "aoi_ndvi":0.2362005711,
+    "difference_roger_minus_aoi":-0.0405947566,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-05-01",
+    "roger_ndvi":0.2904053628,
+    "aoi_ndvi":0.3369279802,
+    "difference_roger_minus_aoi":-0.0465226174,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-06-01",
+    "roger_ndvi":0.4535054564,
+    "aoi_ndvi":0.5441604257,
+    "difference_roger_minus_aoi":-0.0906549693,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-07-01",
+    "roger_ndvi":0.8205789924,
+    "aoi_ndvi":0.7657884359,
+    "difference_roger_minus_aoi":0.0547905565,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-08-01",
+    "roger_ndvi":0.7856974602,
+    "aoi_ndvi":0.750880003,
+    "difference_roger_minus_aoi":0.0348174572,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-09-01",
+    "roger_ndvi":0.324921906,
+    "aoi_ndvi":0.388384223,
+    "difference_roger_minus_aoi":-0.063462317,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-10-01",
+    "roger_ndvi":0.3523562253,
+    "aoi_ndvi":0.3830776513,
+    "difference_roger_minus_aoi":-0.030721426,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-11-01",
+    "roger_ndvi":0.3258738518,
+    "aoi_ndvi":0.348588109,
+    "difference_roger_minus_aoi":-0.0227142572,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2018-12-01",
+    "roger_ndvi":0.2853500843,
+    "aoi_ndvi":0.2896737456,
+    "difference_roger_minus_aoi":-0.0043236613,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-01-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.1878526956,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-02-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.2079097182,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-03-01",
+    "roger_ndvi":0.2590949237,
+    "aoi_ndvi":0.2286377698,
+    "difference_roger_minus_aoi":0.0304571539,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-04-01",
+    "roger_ndvi":0.2458157539,
+    "aoi_ndvi":0.2193101048,
+    "difference_roger_minus_aoi":0.0265056491,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-05-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":null,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-06-01",
+    "roger_ndvi":0.6459746957,
+    "aoi_ndvi":0.4008663297,
+    "difference_roger_minus_aoi":0.245108366,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-07-01",
+    "roger_ndvi":0.6817834377,
+    "aoi_ndvi":0.7023695707,
+    "difference_roger_minus_aoi":-0.020586133,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-08-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.7378934622,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-09-01",
+    "roger_ndvi":0.4855206013,
+    "aoi_ndvi":0.6548377872,
+    "difference_roger_minus_aoi":-0.1693171859,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-10-01",
+    "roger_ndvi":0.3503877819,
+    "aoi_ndvi":0.421024859,
+    "difference_roger_minus_aoi":-0.0706370771,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-11-01",
+    "roger_ndvi":0.3699997663,
+    "aoi_ndvi":0.358725369,
+    "difference_roger_minus_aoi":0.0112743973,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2019-12-01",
+    "roger_ndvi":0.3616462648,
+    "aoi_ndvi":0.3280313611,
+    "difference_roger_minus_aoi":0.0336149037,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-01-01",
+    "roger_ndvi":0.3339938521,
+    "aoi_ndvi":0.2674276531,
+    "difference_roger_minus_aoi":0.066566199,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-02-01",
+    "roger_ndvi":0.1710368991,
+    "aoi_ndvi":0.2510508299,
+    "difference_roger_minus_aoi":-0.0800139308,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-03-01",
+    "roger_ndvi":0.2696767449,
+    "aoi_ndvi":0.2288650721,
+    "difference_roger_minus_aoi":0.0408116728,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-04-01",
+    "roger_ndvi":0.5579968691,
+    "aoi_ndvi":0.3248543739,
+    "difference_roger_minus_aoi":0.2331424952,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-05-01",
+    "roger_ndvi":0.4965264201,
+    "aoi_ndvi":0.3728167415,
+    "difference_roger_minus_aoi":0.1237096786,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-06-01",
+    "roger_ndvi":0.4713520408,
+    "aoi_ndvi":0.5476413369,
+    "difference_roger_minus_aoi":-0.0762892961,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-07-01",
+    "roger_ndvi":0.5278475285,
+    "aoi_ndvi":0.7487350702,
+    "difference_roger_minus_aoi":-0.2208875417,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-08-01",
+    "roger_ndvi":0.5317187309,
+    "aoi_ndvi":0.7039568424,
+    "difference_roger_minus_aoi":-0.1722381115,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-09-01",
+    "roger_ndvi":0.5300659537,
+    "aoi_ndvi":0.5292839408,
+    "difference_roger_minus_aoi":0.0007820129,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-10-01",
+    "roger_ndvi":0.489801228,
+    "aoi_ndvi":0.3609972596,
+    "difference_roger_minus_aoi":0.1288039684,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-11-01",
+    "roger_ndvi":0.4869635701,
+    "aoi_ndvi":0.3260335624,
+    "difference_roger_minus_aoi":0.1609300077,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2020-12-01",
+    "roger_ndvi":0.5516836047,
+    "aoi_ndvi":0.3528352976,
+    "difference_roger_minus_aoi":0.1988483071,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-01-01",
+    "roger_ndvi":-0.0209241398,
+    "aoi_ndvi":-0.0092767961,
+    "difference_roger_minus_aoi":-0.0116473437,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-02-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.0172721762,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-03-01",
+    "roger_ndvi":0.3305230737,
+    "aoi_ndvi":0.2334393263,
+    "difference_roger_minus_aoi":0.0970837474,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-04-01",
+    "roger_ndvi":0.4437336028,
+    "aoi_ndvi":0.3125849068,
+    "difference_roger_minus_aoi":0.131148696,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-05-01",
+    "roger_ndvi":0.5115297437,
+    "aoi_ndvi":0.3691119254,
+    "difference_roger_minus_aoi":0.1424178183,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-06-01",
+    "roger_ndvi":0.5770692825,
+    "aoi_ndvi":0.4787296057,
+    "difference_roger_minus_aoi":0.0983396768,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-07-01",
+    "roger_ndvi":0.5484054089,
+    "aoi_ndvi":0.7508092523,
+    "difference_roger_minus_aoi":-0.2024038434,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-08-01",
+    "roger_ndvi":0.539222002,
+    "aoi_ndvi":0.733843267,
+    "difference_roger_minus_aoi":-0.194621265,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-09-01",
+    "roger_ndvi":0.4853085577,
+    "aoi_ndvi":0.4768339694,
+    "difference_roger_minus_aoi":0.0084745883,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-10-01",
+    "roger_ndvi":0.4502954483,
+    "aoi_ndvi":0.3484659791,
+    "difference_roger_minus_aoi":0.1018294692,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-11-01",
+    "roger_ndvi":0.3473444283,
+    "aoi_ndvi":0.3330972493,
+    "difference_roger_minus_aoi":0.014247179,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2021-12-01",
+    "roger_ndvi":0.3020869195,
+    "aoi_ndvi":0.2920972705,
+    "difference_roger_minus_aoi":0.009989649,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-01-01",
+    "roger_ndvi":-0.0078929113,
+    "aoi_ndvi":0.0270203259,
+    "difference_roger_minus_aoi":-0.0349132372,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-02-01",
+    "roger_ndvi":0.1998593211,
+    "aoi_ndvi":0.1986563653,
+    "difference_roger_minus_aoi":0.0012029558,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-03-01",
+    "roger_ndvi":0.2213920057,
+    "aoi_ndvi":0.2100672722,
+    "difference_roger_minus_aoi":0.0113247335,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-04-01",
+    "roger_ndvi":0.2803385258,
+    "aoi_ndvi":0.2677835524,
+    "difference_roger_minus_aoi":0.0125549734,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-05-01",
+    "roger_ndvi":0.3714223802,
+    "aoi_ndvi":0.3746995926,
+    "difference_roger_minus_aoi":-0.0032772124,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-06-01",
+    "roger_ndvi":0.4097833633,
+    "aoi_ndvi":0.4665398896,
+    "difference_roger_minus_aoi":-0.0567565263,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-07-01",
+    "roger_ndvi":0.7155625224,
+    "aoi_ndvi":0.7317695022,
+    "difference_roger_minus_aoi":-0.0162069798,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-08-01",
+    "roger_ndvi":0.7246367335,
+    "aoi_ndvi":0.730919838,
+    "difference_roger_minus_aoi":-0.0062831045,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-09-01",
+    "roger_ndvi":0.6919773817,
+    "aoi_ndvi":0.5987141728,
+    "difference_roger_minus_aoi":0.0932632089,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-10-01",
+    "roger_ndvi":0.3217704892,
+    "aoi_ndvi":0.3718481958,
+    "difference_roger_minus_aoi":-0.0500777066,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-11-01",
+    "roger_ndvi":0.2631665468,
+    "aoi_ndvi":0.2802093327,
+    "difference_roger_minus_aoi":-0.0170427859,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2022-12-01",
+    "roger_ndvi":0.2640298903,
+    "aoi_ndvi":0.2608751953,
+    "difference_roger_minus_aoi":0.003154695,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-01-01",
+    "roger_ndvi":0.0304204933,
+    "aoi_ndvi":0.1731074601,
+    "difference_roger_minus_aoi":-0.1426869668,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-02-01",
+    "roger_ndvi":0.2578034699,
+    "aoi_ndvi":0.2292205691,
+    "difference_roger_minus_aoi":0.0285829008,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-03-01",
+    "roger_ndvi":0.2621553242,
+    "aoi_ndvi":0.2224912792,
+    "difference_roger_minus_aoi":0.039664045,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-04-01",
+    "roger_ndvi":0.3355720043,
+    "aoi_ndvi":0.2702603042,
+    "difference_roger_minus_aoi":0.0653117001,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-05-01",
+    "roger_ndvi":0.4860804081,
+    "aoi_ndvi":0.3698132634,
+    "difference_roger_minus_aoi":0.1162671447,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-06-01",
+    "roger_ndvi":0.4533669055,
+    "aoi_ndvi":0.6003677249,
+    "difference_roger_minus_aoi":-0.1470008194,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-07-01",
+    "roger_ndvi":0.7195478082,
+    "aoi_ndvi":0.7421270013,
+    "difference_roger_minus_aoi":-0.0225791931,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-08-01",
+    "roger_ndvi":0.728138864,
+    "aoi_ndvi":0.7333366275,
+    "difference_roger_minus_aoi":-0.0051977635,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-09-01",
+    "roger_ndvi":0.6815819144,
+    "aoi_ndvi":0.6183991432,
+    "difference_roger_minus_aoi":0.0631827712,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-10-01",
+    "roger_ndvi":0.3669939935,
+    "aoi_ndvi":0.3553543389,
+    "difference_roger_minus_aoi":0.0116396546,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-11-01",
+    "roger_ndvi":0.386869818,
+    "aoi_ndvi":0.3101677895,
+    "difference_roger_minus_aoi":0.0767020285,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2023-12-01",
+    "roger_ndvi":0.3968381882,
+    "aoi_ndvi":0.2845379114,
+    "difference_roger_minus_aoi":0.1123002768,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-01-01",
+    "roger_ndvi":0.3672128022,
+    "aoi_ndvi":0.1829489917,
+    "difference_roger_minus_aoi":0.1842638105,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-02-01",
+    "roger_ndvi":0.393035084,
+    "aoi_ndvi":0.2385655642,
+    "difference_roger_minus_aoi":0.1544695198,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-03-01",
+    "roger_ndvi":0.4699671865,
+    "aoi_ndvi":0.2521953583,
+    "difference_roger_minus_aoi":0.2177718282,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-04-01",
+    "roger_ndvi":0.6220632792,
+    "aoi_ndvi":0.32800138,
+    "difference_roger_minus_aoi":0.2940618992,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-05-01",
+    "roger_ndvi":0.3799509108,
+    "aoi_ndvi":0.4238818586,
+    "difference_roger_minus_aoi":-0.0439309478,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-06-01",
+    "roger_ndvi":0.3617420793,
+    "aoi_ndvi":0.5769568086,
+    "difference_roger_minus_aoi":-0.2152147293,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-07-01",
+    "roger_ndvi":0.6683990359,
+    "aoi_ndvi":0.7383268476,
+    "difference_roger_minus_aoi":-0.0699278117,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-08-01",
+    "roger_ndvi":0.7154325247,
+    "aoi_ndvi":0.7722184658,
+    "difference_roger_minus_aoi":-0.0567859411,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-09-01",
+    "roger_ndvi":0.7272192836,
+    "aoi_ndvi":0.7381385565,
+    "difference_roger_minus_aoi":-0.0109192729,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-10-01",
+    "roger_ndvi":0.3123809099,
+    "aoi_ndvi":0.352612108,
+    "difference_roger_minus_aoi":-0.0402311981,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-11-01",
+    "roger_ndvi":0.317096442,
+    "aoi_ndvi":0.277567029,
+    "difference_roger_minus_aoi":0.039529413,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2024-12-01",
+    "roger_ndvi":0.2836420238,
+    "aoi_ndvi":0.2534095645,
+    "difference_roger_minus_aoi":0.0302324593,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-01-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.1519211531,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-02-01",
+    "roger_ndvi":0.1907317936,
+    "aoi_ndvi":0.1952428222,
+    "difference_roger_minus_aoi":-0.0045110286,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-03-01",
+    "roger_ndvi":0.2481122464,
+    "aoi_ndvi":0.2288061678,
+    "difference_roger_minus_aoi":0.0193060786,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-04-01",
+    "roger_ndvi":0.3036940694,
+    "aoi_ndvi":0.2766065001,
+    "difference_roger_minus_aoi":0.0270875693,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-05-01",
+    "roger_ndvi":0.3858355284,
+    "aoi_ndvi":0.3653055429,
+    "difference_roger_minus_aoi":0.0205299855,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-06-01",
+    "roger_ndvi":0.6213063598,
+    "aoi_ndvi":0.5833814144,
+    "difference_roger_minus_aoi":0.0379249454,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-07-01",
+    "roger_ndvi":0.7058631182,
+    "aoi_ndvi":0.7774708271,
+    "difference_roger_minus_aoi":-0.0716077089,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-08-01",
+    "roger_ndvi":0.7151822448,
+    "aoi_ndvi":0.7855545282,
+    "difference_roger_minus_aoi":-0.0703722834,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-09-01",
+    "roger_ndvi":0.4657452703,
+    "aoi_ndvi":0.5103026628,
+    "difference_roger_minus_aoi":-0.0445573925,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-10-01",
+    "roger_ndvi":0.3204082251,
+    "aoi_ndvi":0.3600302041,
+    "difference_roger_minus_aoi":-0.039621979,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-11-01",
+    "roger_ndvi":0.3519257605,
+    "aoi_ndvi":0.3187554181,
+    "difference_roger_minus_aoi":0.0331703424,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  },
+  {
+    "time":"2025-12-01",
+    "roger_ndvi":null,
+    "aoi_ndvi":0.1720232368,
+    "difference_roger_minus_aoi":null,
+    "scope":"roger_target_field_vs_aoi_background",
+    "note":"Comparison against full AOI background only, not matched neighbour controls"
+  }
+]

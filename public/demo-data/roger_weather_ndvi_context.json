@@ -1,0 +1,128 @@
+{
+  "scope": "Roger target field NDVI with monthly weather context",
+  "warning": "Correlation is exploratory only. Weather, crop timing, harvest, and management can all affect NDVI.",
+  "correlations_with_roger_ndvi": {
+    "precipitation_sum": 0.1228,
+    "precipitation_previous_month": 0.3016,
+    "rain_sum": 0.2327,
+    "temperature_2m_mean": 0.7661,
+    "shortwave_radiation_sum": 0.6316,
+    "et0_fao_evapotranspiration": 0.7018,
+    "soil_moisture_0_to_7cm_mean": -0.6569,
+    "soil_moisture_previous_month": -0.4335,
+    "soil_moisture_7_to_28cm_mean": -0.6648
+  },
+  "outlier_months": [
+    {
+      "time": "2018-07-01",
+      "roger_ndvi": 0.8206,
+      "ndvi_zscore_for_month": 1.5267,
+      "precipitation_sum": 39.0,
+      "precipitation_previous_month": 116.6,
+      "temperature_2m_mean": 23.3581,
+      "soil_moisture_0_to_7cm_mean": 0.2569,
+      "shortwave_radiation_sum": 777.73
+    },
+    {
+      "time": "2018-09-01",
+      "roger_ndvi": 0.3249,
+      "ndvi_zscore_for_month": -1.7145,
+      "precipitation_sum": 202.3,
+      "precipitation_previous_month": 101.3,
+      "temperature_2m_mean": 19.2633,
+      "soil_moisture_0_to_7cm_mean": 0.3555,
+      "shortwave_radiation_sum": 441.84
+    },
+    {
+      "time": "2020-07-01",
+      "roger_ndvi": 0.5278,
+      "ndvi_zscore_for_month": -1.6671,
+      "precipitation_sum": 70.3,
+      "precipitation_previous_month": 147.9,
+      "temperature_2m_mean": 24.7903,
+      "soil_moisture_0_to_7cm_mean": 0.2445,
+      "shortwave_radiation_sum": 740.48
+    },
+    {
+      "time": "2020-08-01",
+      "roger_ndvi": 0.5317,
+      "ndvi_zscore_for_month": -1.6097,
+      "precipitation_sum": 14.4,
+      "precipitation_previous_month": 70.3,
+      "temperature_2m_mean": 23.2774,
+      "soil_moisture_0_to_7cm_mean": 0.2079,
+      "shortwave_radiation_sum": 684.68
+    },
+    {
+      "time": "2020-10-01",
+      "roger_ndvi": 0.4898,
+      "ndvi_zscore_for_month": 1.8849,
+      "precipitation_sum": 90.4,
+      "precipitation_previous_month": 113.8,
+      "temperature_2m_mean": 9.3645,
+      "soil_moisture_0_to_7cm_mean": 0.2826,
+      "shortwave_radiation_sum": 370.47
+    },
+    {
+      "time": "2020-11-01",
+      "roger_ndvi": 0.487,
+      "ndvi_zscore_for_month": 2.0653,
+      "precipitation_sum": 63.4,
+      "precipitation_previous_month": 90.4,
+      "temperature_2m_mean": 6.5133,
+      "soil_moisture_0_to_7cm_mean": 0.3373,
+      "shortwave_radiation_sum": 255.66
+    },
+    {
+      "time": "2020-12-01",
+      "roger_ndvi": 0.5517,
+      "ndvi_zscore_for_month": 2.1095,
+      "precipitation_sum": 44.8,
+      "precipitation_previous_month": 63.4,
+      "temperature_2m_mean": -2.5258,
+      "soil_moisture_0_to_7cm_mean": 0.3473,
+      "shortwave_radiation_sum": 224.22
+    },
+    {
+      "time": "2021-08-01",
+      "roger_ndvi": 0.5392,
+      "ndvi_zscore_for_month": -1.5319,
+      "precipitation_sum": 68.5,
+      "precipitation_previous_month": 83.3,
+      "temperature_2m_mean": 24.2161,
+      "soil_moisture_0_to_7cm_mean": 0.23,
+      "shortwave_radiation_sum": 653.99
+    },
+    {
+      "time": "2024-02-01",
+      "roger_ndvi": 0.393,
+      "ndvi_zscore_for_month": 1.8619,
+      "precipitation_sum": 12.1,
+      "precipitation_previous_month": 66.0,
+      "temperature_2m_mean": 2.8586,
+      "soil_moisture_0_to_7cm_mean": 0.3451,
+      "shortwave_radiation_sum": 369.02
+    },
+    {
+      "time": "2024-03-01",
+      "roger_ndvi": 0.47,
+      "ndvi_zscore_for_month": 2.3529,
+      "precipitation_sum": 71.5,
+      "precipitation_previous_month": 12.1,
+      "temperature_2m_mean": 6.0161,
+      "soil_moisture_0_to_7cm_mean": 0.3271,
+      "shortwave_radiation_sum": 481.57
+    },
+    {
+      "time": "2024-04-01",
+      "roger_ndvi": 0.6221,
+      "ndvi_zscore_for_month": 1.771,
+      "precipitation_sum": 152.7,
+      "precipitation_previous_month": 71.5,
+      "temperature_2m_mean": 11.31,
+      "soil_moisture_0_to_7cm_mean": 0.3413,
+      "shortwave_radiation_sum": 554.87
+    }
+  ],
+  "interpretation": "Weather context helps explain NDVI outliers and prevents blindly attributing vegetation changes to regenerative practices."
+}

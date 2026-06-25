@@ -1,0 +1,24 @@
+{
+  "scope": "Roger target field vs AOI background",
+  "warning": "AOI background is not matched neighbour controls.",
+  "periods": {
+    "pre_adoption_2017_2020": {
+      "roger_mean_ndvi": 0.5923,
+      "aoi_mean_ndvi": 0.6148,
+      "roger_minus_aoi": -0.0225,
+      "observations": 14
+    },
+    "cover_crop_period_2021_2022": {
+      "roger_mean_ndvi": 0.5865,
+      "aoi_mean_ndvi": 0.621,
+      "roger_minus_aoi": -0.0345,
+      "observations": 8
+    },
+    "no_till_period_2023_2025": {
+      "roger_mean_ndvi": 0.6303,
+      "aoi_mean_ndvi": 0.6814,
+      "roger_minus_aoi": -0.0511,
+      "observations": 12
+    }
+  }
+}

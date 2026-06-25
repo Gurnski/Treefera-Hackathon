@@ -1,0 +1,758 @@
+[
+  {
+    "time":"2017-01-01",
+    "ndvi":0.29605636,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":0.2266771495,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":0.3060433567,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":0.2810062766,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":0.7378199697,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":0.7554061413,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":0.5397183895,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":0.39917171,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":0.2609211206,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":0.2258168757,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":0.2230050564,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":0.244996503,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":0.1893796027,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":0.1956058145,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":0.2904053628,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":0.4535054564,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":0.8205789924,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":0.7856974602,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":0.324921906,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":0.3523562253,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":0.3258738518,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":0.2853500843,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":0.2590949237,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":0.2458157539,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":0.6459746957,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":0.6817834377,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":0.4855206013,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":0.3503877819,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":0.3699997663,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":0.3616462648,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":0.3339938521,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":0.1710368991,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.2696767449,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.5579968691,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.4965264201,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.4713520408,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.5278475285,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.5317187309,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.5300659537,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.489801228,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.4869635701,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.5516836047,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.0209241398,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":0.3305230737,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.4437336028,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.5115297437,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.5770692825,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.5484054089,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.539222002,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.4853085577,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.4502954483,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.3473444283,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.3020869195,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":-0.0078929113,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.1998593211,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.2213920057,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.2803385258,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.3714223802,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.4097833633,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.7155625224,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.7246367335,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.6919773817,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.3217704892,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.2631665468,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.2640298903,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":0.0304204933,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.2578034699,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.2621553242,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.3355720043,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.4860804081,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.4533669055,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.7195478082,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.728138864,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.6815819144,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.3669939935,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.386869818,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.3968381882,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.3672128022,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.393035084,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.4699671865,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.6220632792,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.3799509108,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.3617420793,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.6683990359,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.7154325247,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.7272192836,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.3123809099,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.317096442,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.2836420238,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.1907317936,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.2481122464,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.3036940694,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.3858355284,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.6213063598,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.7058631182,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.7151822448,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.4657452703,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.3204082251,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.3519257605,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":null,
+    "scope":"roger_target_field",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Roger target field polygon reprojected to UTM Zone 15N; no neighbour controls applied yet"
+  }
+]

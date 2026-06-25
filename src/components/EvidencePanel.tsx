@@ -20,10 +20,10 @@ export function EvidencePanel({ before, after }: EvidencePanelProps) {
         <div>
           <div className="eyebrow">Before / After Evidence</div>
           <h3 className="mt-1 text-lg font-semibold text-white">
-            Dry-season composites around the adoption window
+            Sentinel-2 NDVI tile composites (satellite evidence)
           </h3>
         </div>
-        <span className="chip">Sentinel-2 · simulated</span>
+        <span className="chip">Sentinel-2 · notebook-exported</span>
       </div>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">

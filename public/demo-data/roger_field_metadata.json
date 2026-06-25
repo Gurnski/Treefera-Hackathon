@@ -1,0 +1,52 @@
+{
+  "name": "Roger Farm target field",
+  "geometry_type": "Polygon",
+  "source_crs": "EPSG:4326",
+  "analysis_crs": "EPSG:32615",
+  "coordinates_lonlat": [
+    [
+      -92.746894,
+      41.753472
+    ],
+    [
+      -92.746894,
+      41.74608
+    ],
+    [
+      -92.741563,
+      41.74608
+    ],
+    [
+      -92.741563,
+      41.753472
+    ],
+    [
+      -92.746894,
+      41.753472
+    ]
+  ],
+  "coordinates_utm15n": [
+    [
+      521042.358,
+      4622436.044
+    ],
+    [
+      521044.772,
+      4621615.354
+    ],
+    [
+      521488.024,
+      4621616.671
+    ],
+    [
+      521485.559,
+      4622437.361
+    ],
+    [
+      521042.358,
+      4622436.044
+    ]
+  ],
+  "estimated_pixel_count": 3608,
+  "note": "True polygon mask over Sentinel-2 UTM pixels. Controls still required for target-vs-control comparison."
+}

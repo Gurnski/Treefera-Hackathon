@@ -1,0 +1,25 @@
+{
+  "method": "Sentinel-2 B08/B04 NDVI with baseline harmonisation: subtract 1000 from optical bands on/after 2022-01-25, clamp at 0",
+  "scope": "AOI-level growing-season sanity check",
+  "warning": "Not field-level proof. Target/control polygons or manual ROIs are still required for a credible Roger-vs-neighbour comparison.",
+  "periods": {
+    "pre_adoption_2017_2020": {
+      "mean_ndvi": 0.6078,
+      "median_ndvi": 0.6535,
+      "max_ndvi": 0.7658,
+      "observations": 16
+    },
+    "cover_crop_period_2021_2022": {
+      "mean_ndvi": 0.621,
+      "median_ndvi": 0.6648,
+      "max_ndvi": 0.7508,
+      "observations": 8
+    },
+    "no_till_period_2023_2025": {
+      "mean_ndvi": 0.6814,
+      "median_ndvi": 0.7357,
+      "max_ndvi": 0.7856,
+      "observations": 12
+    }
+  }
+}
