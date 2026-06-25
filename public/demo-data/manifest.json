@@ -1,103 +1,109 @@
 {
   "schemaVersion": "1.0.0",
-  "_comment": "DEMO DATA — simulated. Tomorrow, overwrite this file with real notebook/Jupyter exports. Keep the same keys so the React app needs no changes. See src/types.ts for the contract.",
-  "generatedAt": "2026-06-24T00:00:00Z",
-  "dataSource": "simulated",
-
+  "_comment": "REAL HACKATHON DEMO DATA \u2014 generated from local notebook exports. AOI-level signal only; not field-level proof.",
+  "generatedAt": "2026-06-25T11:33:40.108426+00:00",
+  "dataSource": "treefera_local_exports",
   "projectName": "Regen Radar",
-  "challengeName": "Treefera Climate & Satellite Hackathon",
-  "tagline": "Detecting field-level regenerative agriculture signals from satellite time-series data",
-
-  "siteName": "Córrego Verde — Parcel 14",
-  "country": "Mato Grosso, Brazil",
-  "coordinates": { "lat": -13.6271, "lng": -56.0945 },
-  "areaHectares": 48.2,
-  "dateRange": { "start": "2022-01-01", "end": "2024-12-31" },
-  "satellite": "Sentinel-2 L2A (10m, simulated)",
-  "controlFieldCount": 6,
-
-  "score": 72,
-  "scoreLabel": "Medium-high signal",
+  "challengeName": "Treefera LCAW 2026 Hackathon \u2014 Grinnell Iowa Regen Ag Detection",
+  "tagline": "Detecting regenerative agriculture signals from baseline-harmonised satellite time-series data",
+  "siteName": "Grinnell \u2014 regen ag detection",
+  "country": "USA",
+  "coordinates": {
+    "lat": 41.732793,
+    "lng": -92.729659
+  },
+  "areaHectares": 6400,
+  "dateRange": {
+    "start": "2017-01-01",
+    "end": "2025-12-31"
+  },
+  "satellite": "Sentinel-2 L2A monthly median optical reflectance, baseline-harmonised",
+  "controlFieldCount": 0,
+  "score": 64,
+  "scoreLabel": "Moderate AOI-level signal",
   "confidence": {
-    "level": "Moderate",
-    "value": 0.64,
-    "note": "Consistent multi-season divergence from controls, but no ground-truth confirmation."
+    "level": "Moderate-low",
+    "value": 0.56,
+    "note": "Growing-season NDVI rises after known practice-change periods, but this is AOI-level evidence. Field-level target/control polygons are still required."
   },
-
   "adoptionPeriod": {
-    "label": "Suspected adoption window",
-    "start": "2023-03-01",
-    "end": "2023-08-31"
+    "label": "Known practice-change window",
+    "start": "2021-01-01",
+    "end": "2025-12-31"
   },
-
   "factors": [
     {
-      "id": "ndvi_uplift",
-      "label": "NDVI uplift vs controls",
-      "detail": "+0.11 mean NDVI above the 6-field control average after the adoption window.",
-      "weight": 0.34,
+      "id": "baseline_harmonised_ndvi",
+      "label": "Baseline-harmonised NDVI",
+      "detail": "Sentinel-2 optical bands were corrected by subtracting 1000 on/after 2022-01-25 before NDVI calculation.",
+      "weight": 0.3,
       "direction": "positive"
     },
     {
-      "id": "off_season_veg",
-      "label": "Off-season vegetation",
-      "detail": "Green cover persists into the dry season where controls go bare.",
-      "weight": 0.27,
+      "id": "growing_season_uplift",
+      "label": "Growing-season NDVI uplift",
+      "detail": "AOI mean growing-season NDVI rises from 0.6078 pre-adoption to 0.6814 in the no-till period, an uplift of +0.0736 (12.1%).",
+      "weight": 0.35,
       "direction": "positive"
     },
     {
-      "id": "reduced_bare_soil",
-      "label": "Reduced bare-soil window",
-      "detail": "Bare-soil days per year dropped from ~74 to ~31.",
-      "weight": 0.24,
-      "direction": "positive"
-    },
-    {
-      "id": "change_point",
-      "label": "Change-point detected",
-      "detail": "Statistical break in the NDVI series aligns with the suspected adoption window.",
+      "id": "cover_crop_period",
+      "label": "Cover crop transition signal",
+      "detail": "Mean growing-season NDVI during the 2021\u20132022 cover-crop period is 0.621, slightly above the 2017\u20132020 baseline of 0.6078.",
       "weight": 0.15,
       "direction": "positive"
+    },
+    {
+      "id": "biomass_context",
+      "label": "Biomass context",
+      "detail": "Biomass layers are included as AOI-level context only; they are coarse/noisy and not treated as proof of practice change.",
+      "weight": 0.1,
+      "direction": "neutral"
+    },
+    {
+      "id": "target_control_missing",
+      "label": "Target/control polygons pending",
+      "detail": "Current GeoJSON is an 8x8 km AOI box, not individual Roger/control field boundaries.",
+      "weight": 0.1,
+      "direction": "caution"
     }
   ],
-
   "aiInsight": {
-    "headline": "Persistent divergence from neighbouring controls",
-    "body": "The target field shows increased vegetation behaviour relative to neighbouring controls after the suspected adoption period. This suggests a possible regenerative agriculture signal, but should be validated against farm management records or ground truth.",
-    "model": "Prewritten (no live inference in this demo)",
-    "disclaimer": "Signal, not proof. This narrative is a heuristic summary of the metrics above."
+    "headline": "AOI-level vegetation signal strengthens after practice changes",
+    "body": "Across the Grinnell AOI, baseline-harmonised Sentinel-2 growing-season NDVI increases from 0.6078 before adoption to 0.6814 during the no-till period. This is a useful screening signal, but it is not proof of regenerative agriculture without field-level target/control comparison.",
+    "model": "Prewritten summary from notebook exports",
+    "disclaimer": "Signal, not proof. This is AOI-level evidence and should be validated with field boundaries, controls, weather, crop rotation, and management records."
   },
-
   "limitations": [
-    "Weather variability (rainfall, drought) can mimic or mask regenerative signals.",
-    "Crop rotation and cover cropping can raise NDVI without regenerative practices.",
-    "Sensor artefacts: clouds, shadows, and atmospheric correction add noise.",
-    "No ground truth — practices are inferred, not confirmed by the farm.",
-    "Field-boundary quality affects whether pixels represent only the target field."
+    "Current GeoJSON is an AOI boundary, not individual field polygons.",
+    "AOI-level NDVI can mix multiple farms, crop rotations, and management regimes.",
+    "Weather, rainfall timing, crop type, and harvest dates can mimic vegetation changes.",
+    "Biomass layers are coarse/noisy context and are not field-level proof.",
+    "A credible next step is target-vs-control field comparison using Roger's field and matched neighbouring fields."
   ],
-
   "nextSteps": [
-    "Cross-check the suspected adoption window against farm management records.",
-    "Acquire labelled examples of confirmed regenerative fields to calibrate the score.",
-    "Run cloud/shadow masking and atmospheric QA on the raw scenes.",
-    "Refine field boundaries with higher-resolution imagery or cadastral data.",
-    "Prioritise this parcel for on-the-ground verification given its medium-high signal."
+    "Acquire or manually define Roger's target field and 3\u20135 matched conventional neighbour polygons.",
+    "Recalculate NDVI per field rather than across the full AOI.",
+    "Compare post-2021 and post-2023 vegetation behaviour against controls.",
+    "Add rainfall/weather and crop rotation controls.",
+    "Validate signals against farm management records or ground observations."
   ],
-
   "images": {
     "before": {
       "src": "/demo-data/before.png",
-      "label": "Before — pre-adoption",
-      "date": "2022-08-15",
-      "caption": "Dry-season composite before the suspected adoption window. Replace with a real notebook-exported scene."
+      "label": "Before \u2014 pre-practice-change",
+      "date": "2020 growing season",
+      "caption": "Placeholder visual. Replace with a notebook-exported Sentinel-2 composite if time allows."
     },
     "after": {
       "src": "/demo-data/after.png",
-      "label": "After — post-adoption",
-      "date": "2024-08-18",
-      "caption": "Dry-season composite after the suspected adoption window. Replace with a real notebook-exported scene."
+      "label": "After \u2014 post-practice-change",
+      "date": "2024 growing season",
+      "caption": "Placeholder visual. Replace with a notebook-exported Sentinel-2 composite if time allows."
     }
   },
-
-  "timeseriesPath": "/demo-data/ndvi_timeseries.json"
+  "timeseriesPath": "/demo-data/ndvi_timeseries.json",
+  "ndviSummaryPath": "/demo-data/ndvi_summary.json",
+  "biomassTimeseriesPath": "/demo-data/biomass_timeseries.json",
+  "aoiMetadataPath": "/demo-data/aoi_metadata.json"
 }
