@@ -132,10 +132,10 @@ function Legend2() {
   return (
     <div className="flex items-center gap-4 text-xs text-slate-400">
       <span className="flex items-center gap-1.5">
-        <span className="h-2.5 w-2.5 rounded-full bg-signal-500" /> Target field
+        <span className="h-2.5 w-2.5 rounded-full bg-signal-500" /> Roger target field
       </span>
       <span className="flex items-center gap-1.5">
-        <span className="h-0.5 w-4 rounded-full bg-radar-300" /> Control avg
+        <span className="h-0.5 w-4 rounded-full bg-radar-300" /> AOI aggregate
       </span>
     </div>
   );

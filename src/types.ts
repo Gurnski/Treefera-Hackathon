@@ -99,6 +99,15 @@ export interface Manifest {
   rogerFieldTimeseriesPath: string;
   rogerFieldSummaryPath: string;
   rogerFieldMetadataPath: string;
+  rogerVsAoiTimeseriesPath: string;
+  rogerVsAoiSummaryPath: string;
+  ndviSummaryPath: string;
+  biomassTimeseriesPath: string;
+  aoiMetadataPath: string;
+  fieldControlLongPath: string;
+  fieldControlMetadataPath: string;
+  rogerCleanVsControlsTimeseriesPath: string;
+  rogerCleanVsControlsSummaryPath: string;
 }
 
 export type NdviPhase = "baseline" | "adoption" | "post";
@@ -122,6 +131,15 @@ export interface DemoData {
   rogerFieldSummary?: RogerFieldSummary;
   /** Roger target-field metadata (polygon, CRS, pixel count, coords). */
   rogerFieldMetadata?: RogerFieldMetadata;
+  /** Roger vs AOI NDVI comparison time-series. */
+  rogerVsAoiTimeseries?: RogerVsAoiTimestamped;
+
+  /** Aggregated per-control-field NDVI. */
+  fieldControlNdviLong?: NdviLongPoint[];
+  fieldControlMetadata?: FieldControlMetadata[];
+  /** Roger clean (cropland-only) vs controls NDVI comparison. */
+  rogerCleanVsControlsTimeseries?: CleanVsControlPoint[];
+  rogerCleanVsControlsSummary?: CleanVsControlSummary;
 }
 
 export interface RogerFieldTimestamped {
@@ -154,3 +172,61 @@ export interface RogerFieldMetadata {
   estimated_pixel_count: number;
   note: string;
 }
+
+/** Single row from roger_vs_aoi_ndvi_timeseries.json. */
+export interface RogerVsAoiPoint {
+  time: string; // "YYYY-MM-DD"
+  roger_ndvi: number | null;
+  aoi_ndvi: number | null;
+  difference_roger_minus_aoi: number | null;
+  scope: string;
+  note: string;
+}
+
+/** Array of Roger-vs-AOI comparison rows. */
+export type RogerVsAoiTimestamped = RogerVsAoiPoint[];
+
+/** Single row from field_control_ndvi_long.json. */
+export interface NdviLongPoint {
+  field: string;
+  date: string;
+  ndvi: number;
+  method: string;
+  scope: string;
+}
+
+/** Control field metadata rows. */
+export interface FieldControlMetadata {
+  field: string;
+  geometry_type: string;
+  source_crs: string;
+  coordinates: [number, number][];
+  estimated_pixel_count: number;
+  note?: string;
+}
+
+/** Row from roger_clean_vs_controls_ndvi_timeseries.json. */
+export interface CleanVsControlPoint {
+  time: string;
+  roger_ndvi: number | null;
+  field: string;
+  control_ndvi: number | null;
+  difference: number | null;
+  scope: string;
+}
+
+/** Summary from roger_clean_vs_controls_ndvi_summary.json. */
+export interface CleanVsControlSummary {
+  method: string;
+  scope: string;
+  roger_observations: number;
+  controls: Array<{
+    field: string;
+    pre_adoption_mean_ndvi: number;
+    cover_crop_mean_ndvi: number;
+    no_till_mean_ndvi: number;
+    uplift_cover_vs_pre: number;
+    uplift_no_till_vs_pre: number;
+  }>;
+}
+

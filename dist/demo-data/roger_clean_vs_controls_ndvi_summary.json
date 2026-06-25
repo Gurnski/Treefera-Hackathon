@@ -1,0 +1,34 @@
+{
+  "scope": "Roger clean cropland ROI vs manually selected candidate controls",
+  "warning": "Controls were manually selected in Google Earth Engine using satellite basemap, NDVI, and CDL context. They are candidate controls, not ground-truthed matched controls.",
+  "excluded_controls": [
+    "control_5"
+  ],
+  "valid_controls": [
+    "control_1",
+    "control_2",
+    "control_3",
+    "control_4"
+  ],
+  "periods": {
+    "pre_adoption_2017_2020": {
+      "roger_clean_mean_ndvi": 0.6232,
+      "control_avg_mean_ndvi": 0.6272,
+      "roger_minus_control_avg": -0.004,
+      "observations": 14
+    },
+    "cover_crop_period_2021_2022": {
+      "roger_clean_mean_ndvi": 0.6538,
+      "control_avg_mean_ndvi": 0.6519,
+      "roger_minus_control_avg": 0.0019,
+      "observations": 8
+    },
+    "no_till_period_2023_2025": {
+      "roger_clean_mean_ndvi": 0.6785,
+      "control_avg_mean_ndvi": 0.7492,
+      "roger_minus_control_avg": -0.0708,
+      "observations": 12
+    }
+  },
+  "interpretation": "Roger's cropland-refined ROI shows a within-field NDVI uplift from pre-adoption to the no-till period, but the candidate control average rises more strongly. This lowers confidence in attributing the uplift to regenerative practice alone and highlights the need for crop-type matched, ground-truthed controls."
+}

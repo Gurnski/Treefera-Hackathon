@@ -29,7 +29,7 @@ export function RegenScoreCard({
         <div>
           <div className="eyebrow">Regen Signal Score</div>
           <p className="mt-1 text-sm text-slate-400">
-            Composite of vegetation behaviour vs neighbouring controls
+            Composite score from Roger target-field NDVI, AOI context, and validation caveats
           </p>
         </div>
         <span className="chip border-amber-400/30 text-amber-400">

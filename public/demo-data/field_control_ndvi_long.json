@@ -1,0 +1,5186 @@
+[
+  {
+    "time":"2017-01-01",
+    "ndvi":0.2489251196,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":0.1875271201,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":0.2085698098,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":0.1899895072,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":0.8139124513,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":0.8051785231,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":0.5875357389,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":0.3383241892,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":0.1564884484,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":0.1534948349,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":0.1659338325,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":0.1782228351,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":0.1565535665,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":0.1521694958,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":0.2057149857,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":0.4406215847,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":0.9193198681,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":0.8762859702,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":0.2634698749,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":0.2206780165,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":0.1962239891,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":0.2030988038,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":0.2331951559,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":0.2034584433,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":0.697599709,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":0.8402858377,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":0.3572492898,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":0.2204389721,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":0.2718993723,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":0.2799200416,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":0.3043472767,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.2626226246,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.5895161629,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.6150695682,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.4835232198,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.5389110446,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.5285541415,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.5722520947,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.5504553318,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.5293620229,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.5492832661,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.0204857141,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":0.3406222761,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.4621775448,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.5439607501,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.6678251028,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.5103361607,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.581522882,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.5105211139,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.4833726883,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.251683265,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.2247244716,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.1835354865,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.1908987612,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.2136443108,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.2310461402,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.3448708653,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.8825466633,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.9413928986,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.7915017605,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.1964692175,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.1689319164,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.1802728027,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.2355311811,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.2177828103,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.2940530479,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.4603059888,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.41322878,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.8749061823,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.8993940353,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.8820857406,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.2682547271,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.245627895,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.2878585458,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.3238992989,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.3545969129,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.4877192378,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.7486041784,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.233491227,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.2540092766,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.7713463306,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.8808758855,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.8821549416,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.2090646625,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.2140233517,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.227138713,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.1779970974,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.2258116007,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.2234047055,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.3156712949,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.546807766,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.6614180207,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.6492430568,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.4262313545,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.2171886712,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.3237677813,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":null,
+    "field":"roger_clean",
+    "role":"cropland_refined_target",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-01-01",
+    "ndvi":0.2938866019,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":0.287343055,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":0.4694691896,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":0.3667013943,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":0.5928735137,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":0.7353958488,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":0.4355382919,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":0.3131216466,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":0.2438481003,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":0.1502264291,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":0.2276289314,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":0.2319598496,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":0.1994486451,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":0.2027634382,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":0.2210917175,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":0.438657701,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":0.8718321323,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":0.8375837803,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":0.2989846468,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":0.2363110185,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":0.2227845341,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":0.217076838,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":0.0123390593,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":0.1982091516,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":0.1879636347,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":0.4090705216,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":0.8457843661,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":0.8584970832,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":0.5983534455,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":0.2814112902,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":0.2150016278,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":0.2099873126,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":0.2393095493,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":0.2648327351,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.1809332073,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.2079421878,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.2990779281,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.4531847835,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.8271661997,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.7844404578,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.482190907,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.2215430588,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.224033162,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.2490837276,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.0004422335,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":0.192974478,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.3156897724,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.2728767097,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.4449374676,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.8645200729,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.8914525509,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.4333954751,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.198708415,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.2150222659,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.2297440171,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.1869161129,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.2049032301,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.2772324383,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.3477809131,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.3782228827,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.8582066298,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.8682412505,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.6725461483,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.260019362,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.1843377948,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.1877063662,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.1922978163,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.1893486381,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.2152682245,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.3177115321,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.512116909,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.8205273747,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.8639121652,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.7941078544,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.2828319669,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.2500769794,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.2687591016,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.2582479119,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.2842297554,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.3546377122,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.6749132872,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.3718012869,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.3027751744,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.7717493773,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.8735856414,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.7967732549,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.2244439274,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.2239455134,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.2181896865,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":null,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.176273331,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.2267712653,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.2584789097,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.438706845,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.4378827214,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.8144015074,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.8989772201,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.4896469116,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.2230032533,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.2493499219,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":0.1468930095,
+    "field":"control_1",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-01-01",
+    "ndvi":0.1795120537,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":0.1718170494,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":0.183498621,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":0.1812338084,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":0.6797758341,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":0.8523320556,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":0.4263090193,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":0.1986375004,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":0.1574296802,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":0.1617304087,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":0.1911430359,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":0.2150774747,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":0.1689439863,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":0.1687319279,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":0.1581148654,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":0.2756521404,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":0.8686755896,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":0.8945854306,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":0.2345322967,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":0.2048017234,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":0.1786715984,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":0.1744116247,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":0.0041931788,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":0.2359903306,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":0.1632522196,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":0.1989930421,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":0.852682054,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":0.7519556284,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":0.3720197082,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":0.1906611174,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":0.1705719531,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":0.1548816264,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.1556094587,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.1474014521,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.1419295371,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.2740671039,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.7600744367,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.8888763189,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.7170651555,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.185574919,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.1613048613,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.1615764797,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.0068184831,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.1776123345,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.2035111785,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.4457612336,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.8805543184,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.8319255114,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.5604143143,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.2397870123,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.1527626514,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.1542668641,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.1513898224,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.1203070059,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.1650753468,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.1730361283,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.2740433216,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.8258324265,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.9215409756,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.6787145138,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.203219384,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.1545221657,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.1708402187,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":0.1737919748,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.2031012923,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.1891208589,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.1795358062,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.2010304183,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.7172778249,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.9104186893,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.8825394511,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.8435912728,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.292424649,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.1756494492,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.1647754759,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.1367321312,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.1505979151,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.1585207283,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.1610260606,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.1820649356,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.2368489355,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.5381663442,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.8950172067,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.9135397673,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.2053370774,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.1470129043,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.1566756666,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":null,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.146220386,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.1883471012,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.1987147033,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.2115576267,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.7001029253,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.9143667221,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.9030008912,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.5441495776,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.2248229235,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.1770980507,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":0.152302593,
+    "field":"control_2",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-01-01",
+    "ndvi":0.244460538,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":0.181850329,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":0.2110060304,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":0.2479834557,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":0.2170097381,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":0.8382377625,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":0.7431981564,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":0.5448126793,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":0.2621891797,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":0.1929047257,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":0.1914847344,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":0.2145604342,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":0.2644926012,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":0.1984627247,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":0.1880046576,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":0.1864830554,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":0.3653592169,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":0.8901359439,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":0.828933239,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":0.2039353698,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":0.201668337,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":0.2170361131,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":0.22153005,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":0.0166671462,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":0.2496650666,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":0.1938372403,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":0.2572832108,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":0.8932671547,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":0.7345682383,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":0.3722379506,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":0.187665686,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":0.1771017313,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":0.3010220528,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":0.2408406585,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.1723411381,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.1888971776,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.2009122968,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.436932385,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.8349365592,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.8533421159,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.3797220886,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.1793348491,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.1967734396,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.2202242315,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.0048994147,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.1965675652,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.2183236927,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.4642441571,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.8738285303,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.8556045294,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.3714879453,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.2165073305,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.162214607,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.1709889323,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.153053686,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.1551102102,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.1761631668,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.2008445859,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.3206544816,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.8485780954,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.8359821439,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.4665076435,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.2008284628,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.1664154083,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.1596656442,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.1894746572,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.1632400304,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.1809343994,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.2836288512,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.8348593712,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.9036061168,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.8568392992,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.6988737583,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.2432039231,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.1860390604,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.1726331562,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.1346616745,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.1685816795,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.1702721119,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.1694039404,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.211494863,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.3013496399,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.8538096547,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.9077326655,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.8118894696,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.202136606,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.1694493443,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.1739138812,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":0.104970023,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.1707124859,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.1927061975,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.1899587512,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.2276281267,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.7258653641,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.899012804,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.8886513114,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.5643110275,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.2001504749,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.1987882257,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":null,
+    "field":"control_3",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-01-01",
+    "ndvi":0.1808236092,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":0.1636132002,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":0.146566242,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":0.1516299546,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":0.5147095323,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":0.889672637,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":0.5879923105,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":0.3169847429,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":0.1799558401,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":0.1644754857,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":0.1870695949,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":0.1544730216,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":0.1480932832,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":0.1782881171,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":0.6184766889,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":0.8903727531,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":0.8379530907,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":0.1380326897,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":0.2191509455,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":0.1840176731,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":0.1755357385,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":0.0006971455,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":0.1646394432,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":0.132950753,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":0.1362930238,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":0.8612668514,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":0.815038085,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":0.363494873,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":0.24565126,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":0.1837774813,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":0.1535234153,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":0.1442963034,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":0.1341472566,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":0.2562040687,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":0.772802949,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":0.889632225,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":0.8250576258,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":0.1960050017,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":0.160691902,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":0.1604084373,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":-0.006526934,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":0.1866550446,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":0.1771954894,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":0.1996312886,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":0.2933900356,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":0.8723502159,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":0.8483657241,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":0.5629099607,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":0.2191374302,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":0.161920011,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":0.1645777673,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":0.1527620554,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":0.1515343636,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":0.1623118967,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":0.1743197143,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":0.2684497833,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":0.8328590393,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":0.8657887578,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":0.4506517947,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":0.1869835705,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":0.1528737694,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":0.1724189222,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":0.1905948073,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":0.2073254138,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":0.1863605827,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":0.1990004033,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":0.1861866713,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":0.7147001624,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":0.9095662832,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":0.8709378242,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":0.7970297337,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":0.2786446512,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":0.1703823507,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":0.1777885258,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":0.1922063082,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":0.1820961982,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":0.1836275011,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":0.181283474,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":0.2034909576,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":0.3830416501,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":0.8846077323,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":0.9118179679,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":0.8726178408,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":0.1961418539,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":0.1492622346,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":0.1600829959,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":0.156821087,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":0.1967718452,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":0.1921631545,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":0.1849860251,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":0.5649428964,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":0.9167681932,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":0.8999848962,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":0.6145452857,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":0.234055832,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":0.191931054,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":null,
+    "field":"control_4",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2017-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2018-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2019-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2020-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2021-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2022-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2023-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2024-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-01-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-02-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-03-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-04-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-05-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-06-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-07-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-08-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-09-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-10-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-11-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  },
+  {
+    "time":"2025-12-01",
+    "ndvi":null,
+    "field":"control_5",
+    "role":"candidate_control",
+    "method":"sentinel2_baseline_harmonised_polygon_mask_utm15n",
+    "note":"Manually drawn GEE candidate-control polygon; signal not proof"
+  }
+]

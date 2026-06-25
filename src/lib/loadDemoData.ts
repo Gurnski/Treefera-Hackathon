@@ -5,6 +5,11 @@ import type {
   RogerFieldTimestamped,
   RogerFieldSummary,
   RogerFieldMetadata,
+  RogerVsAoiPoint,
+  NdviLongPoint,
+  FieldControlMetadata,
+  CleanVsControlPoint,
+  CleanVsControlSummary,
 } from "../types";
 
 /**
@@ -14,7 +19,7 @@ import type {
  * Vite. To swap in real data tomorrow, just overwrite the JSON files in
  * public/demo-data/ with notebook exports that match src/types.ts.
  *
- * The loader is defensive: if any field is loaded.
+ * The loader is defensive: if any file is missing it degrades gracefully.
  */
 
 const BASE = import.meta.env.BASE_URL ?? "/";
@@ -37,7 +42,7 @@ export async function loadDemoData(): Promise<DemoData> {
   const manifest = await fetchJson<Manifest>("demo-data/manifest.json");
   if (!manifest) throw new Error(`Failed to load manifest.json`);
 
-  // AOI-level NDVI time-series (target vs control channel).
+  // AOI-level NDVI time-series.
   let timeseries: NdviPoint[] = [];
   try {
     const data = await fetchJson<NdviPoint[]>(
@@ -45,10 +50,9 @@ export async function loadDemoData(): Promise<DemoData> {
     );
     if (data) timeseries = data;
   } catch (err) {
-    console.warn("[Regen Radar] AOI timeseries:", err);
+    console.warn("[Regen Radar] AOI NDVI timeseries:", err);
   }
-
-  // Roger target-field NDVI time-series (polygon-masked).
+  // Roger target-field NDVI time-series.
   let rogerFieldTimeseries: RogerFieldTimestamped[] = [];
   try {
     const data = await fetchJson<RogerFieldTimestamped[]>(
@@ -81,11 +85,75 @@ export async function loadDemoData(): Promise<DemoData> {
     console.warn("[Regen Radar] Roger metadata:", err);
   }
 
+  // Roger vs AOI NDVI.
+  let rogerVsAoiTimeseries: RogerVsAoiPoint[] = [];
+  try {
+    const data = await fetchJson<RogerVsAoiPoint[]>(
+      manifest.rogerVsAoiTimeseriesPath ?? "demo-data/roger_vs_aoi_ndvi_timeseries.json"
+    );
+    if (data) rogerVsAoiTimeseries = data;
+  } catch (err) {
+    console.warn("[Regen Radar] Roger vs AOI timeseries:", err);
+  }
+
+  // Aggregated control field NDVI.
+  let fieldControlNdviLong: NdviLongPoint[] = [];
+  try {
+    const data = await fetchJson<NdviLongPoint[]>(
+      manifest.fieldControlLongPath ?? "demo-data/field_control_ndvi_long.json"
+    );
+    if (data) fieldControlNdviLong = data;
+  } catch (err) {
+    console.warn("[Regen Radar] Field control NDVI long:", err);
+  }
+
+  // Control field metadata.
+  let fieldControlMetadata: FieldControlMetadata[] = [];
+  try {
+    const data = await fetchJson<FieldControlMetadata[]>(
+      manifest.fieldControlMetadataPath
+    );
+    if (data) fieldControlMetadata = data;
+  } catch (err) {
+    console.warn("[Regen Radar] Field control metadata:", err);
+  }
+
+  // Roger clean vs controls NDVI.
+  let rogerCleanVsControlsTimeseries: CleanVsControlPoint[] = [];
+  let rogerCleanVsControlsSummary: CleanVsControlSummary | undefined;
+  if (manifest.rogerCleanVsControlsTimeseriesPath) {
+    try {
+      const data = await fetchJson<CleanVsControlPoint[]>(
+        manifest.rogerCleanVsControlsTimeseriesPath
+      );
+      if (data) rogerCleanVsControlsTimeseries = data;
+    } catch (err) {
+      console.warn("[Regen Radar] Roger clean vs controls timeseries:", err);
+    }
+  }
+  if (manifest.rogerCleanVsControlsSummaryPath) {
+    try {
+      const data = await fetchJson<CleanVsControlSummary>(
+        manifest.rogerCleanVsControlsSummaryPath
+      );
+      if (data) rogerCleanVsControlsSummary = data;
+    } catch (err) {
+      console.warn("[Regen Radar] Roger clean vs controls summary:", err);
+    }
+  }
+
   return {
     manifest,
     timeseries,
     rogerFieldTimeseries: rogerFieldTimeseries.length > 0 ? rogerFieldTimeseries : undefined,
     rogerFieldSummary,
     rogerFieldMetadata,
+    rogerVsAoiTimeseries: rogerVsAoiTimeseries.length > 0 ? rogerVsAoiTimeseries : undefined,
+    fieldControlNdviLong: fieldControlNdviLong.length > 0 ? fieldControlNdviLong : undefined,
+    fieldControlMetadata: fieldControlMetadata.length > 0 ? fieldControlMetadata : undefined,
+    rogerCleanVsControlsTimeseries: rogerCleanVsControlsTimeseries.length > 0
+      ? rogerCleanVsControlsTimeseries
+      : undefined,
+    rogerCleanVsControlsSummary,
   };
 }

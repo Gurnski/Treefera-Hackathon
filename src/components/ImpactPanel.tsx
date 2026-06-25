@@ -21,7 +21,7 @@ export function ImpactPanel({ nextSteps, siteName }: ImpactPanelProps) {
         Ground-truthing every field is expensive. A signal score lets teams rank
         candidates and spend field visits where the satellite evidence is
         strongest. <span className="text-radar-300">{siteName}</span> scoring
-        medium-high makes it a priority candidate — not a confirmed case.
+        critical-high makes it a priority candidate — not a confirmed case.
       </p>
 
       <ol className="mt-6 space-y-3">

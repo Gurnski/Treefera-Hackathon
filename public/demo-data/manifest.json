@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "_comment": "REAL HACKATHON DEMO DATA \u2014 generated from local notebook exports. AOI-level signal only; not field-level proof.",
+  "_comment": "REAL HACKATHON DEMO DATA — generated from local notebook exports. AOI-level signal only; not field-level proof.",
   "generatedAt": "2026-06-25T11:33:40.108426+00:00",
   "dataSource": "treefera_local_exports",
   "projectName": "Regen Radar",
-  "challengeName": "Treefera LCAW 2026 Hackathon \u2014 Grinnell Iowa Regen Ag Detection",
+  "challengeName": "Treefera LCAW 2026 Hackathon — Grinnell Iowa Regen Ag Detection",
   "tagline": "Detecting regenerative agriculture signals from baseline-harmonised satellite time-series data",
-  "siteName": "Grinnell \u2014 regen ag detection",
+  "siteName": "Grinnell — regen ag detection",
   "country": "USA",
   "coordinates": {
     "lat": 41.732793,
@@ -19,63 +19,63 @@
   },
   "satellite": "Sentinel-2 L2A monthly median optical reflectance, baseline-harmonised",
   "controlFieldCount": 0,
-  "score": 68,
-  "scoreLabel": "Moderate target-field signal",
+  "score": 38,
+  "scoreLabel": "Uncertain, attribution challenged by controls",
   "confidence": {
-    "level": "Moderate",
-    "value": 0.62,
-    "note": "Roger's target field shows higher growing-season NDVI during the no-till period, but neighbour/control polygons are still required for proof."
+    "level": "Low-moderate",
+    "value": 0.32,
+    "note": "Roger's clean cropland ROI improves after practice changes, but candidate controls also rise – often more strongly. Attribution is noisy."
   },
   "adoptionPeriod": {
-    "label": "Known practice-change window",
+    "label": "Proposed practice-change window",
     "start": "2021-01-01",
     "end": "2025-12-31"
   },
   "factors": [
     {
       "id": "roger_polygon_extract",
-      "label": "Roger field polygon extracted",
-      "detail": "NDVI was extracted from Roger's target field using a true polygon mask over 3608 Sentinel-2 pixels.",
+      "label": "Roger polygon extracted with refined interest region",
+      "detail": "NDVI was extracted from Roger's target field using a true-north polygon mask over 3608 Sentinel-2 pixels. The crop-only ROI was derived separately after PCRaster identified non-crop / residential edge pixels in the original parcel.",
       "weight": 0.3,
-      "direction": "positive"
+      "direction": "yes"
     },
     {
       "id": "roger_notill_uplift",
-      "label": "No-till period NDVI uplift",
-      "detail": "Roger field growing-season NDVI rises from 0.5923 pre-adoption to 0.6303 in the no-till period, an uplift of +0.038 (6.4%).",
+      "label": "Pre-adoption → no-till NDVI uplift",
+      "detail": "Roger field growing-season NDVI rises from 0.592 in pre-adoption to 0.630 in the no-till period – a +0.038 (6.4%) gain.",
       "weight": 0.35,
-      "direction": "positive"
+      "direction": "yes"
     },
     {
       "id": "baseline_harmonised_ndvi",
       "label": "Baseline-harmonised Sentinel-2",
-      "detail": "Optical bands were corrected by subtracting 1000 on/after 2022-01-25 before calculating NDVI.",
+      "detail": "Sentinel-2 bands calibrated on 2022-02-25 before calculating NDVI.",
       "weight": 0.2,
-      "direction": "positive"
+      "direction": "yes"
     },
     {
       "id": "controls_pending",
-      "label": "Neighbour controls pending",
-      "detail": "Current result is target-field only. Matched conventional neighbour polygons are still needed for full target-vs-control proof.",
+      "label": "Candidate controls",
+      "detail": "Growing-season NDVI also improves in nearby controls. The candidate-control average pulls more brightly than Roger by the no-till period, lowering confidence that attribution is driven by the decision.",
       "weight": 0.15,
-      "direction": "caution"
+      "direction": "yes"
     }
   ],
   "aiInsight": {
-    "headline": "Roger field shows a moderate post-practice vegetation signal",
-    "body": "Using the real Roger Farm polygon, baseline-harmonised Sentinel-2 NDVI rises from 0.5923 before adoption to 0.6303 during the no-till period. This is stronger than AOI-only evidence because it uses the target field boundary, but it remains a signal rather than proof until matched neighbour controls are added.",
+    "headline": "Roger field improves, but controls challenge attribution",
+    "body": "Roger's cropland-refined ROI shows a within-field NDVI uplift from pre-adoption to the no-till period. However, analysis of candidate control fields observed greenspace change in a wider variety of farm, the very when citizen determines the conditions themselves regional phenomena. When controls trace by satellite gains, individual all-based assessment. Count of more indicators usually stronger point. Difficult tool score with features of definite tract in competing features of control.",
     "model": "Prewritten summary from notebook exports",
-    "disclaimer": "Signal, not proof. Target-field evidence should be validated with neighbour controls, weather, crop rotation, and farm management records."
+    "disclaimer": "Signal, not proof. Candidate controls were manually selected using Google Earth Engine and ground truthing; they are not independently verifiable."
   },
   "limitations": [
-    "Roger's target field shows a moderate within-field uplift after no-till, but it does not outperform the wider AOI background.",
-    "The AOI background is not a matched control group and mixes many fields, crops, roads, trees, and management styles.",
-    "Matched neighbour/control polygons are still required for full target-vs-control evidence.",
+    "Roger's clean cropland ROI shows within-field NDVI uplift, but candidate controls rise more strongly, so attribution to regenerative practice alone is uncertain.",
+    "Candidate controls were manually selected and are not truly matched controls to manage on the same terrain.",
+    "The original Roger parcel appears to include non-crop/residential edge pixels, so a cropland-refined ROI was used for the cleaned analysis.",
     "Weather, crop rotation, harvest timing, and management records need to be checked.",
-    "Biomass layers are AOI-level context only and are not treated as proof."
+    "This is a reproducible verification workflow, not proof of regenerative agriculture impact."
   ],
   "nextSteps": [
-    "Acquire or manually define Roger's target field and 3\u20135 matched conventional neighbour polygons.",
+    "Acquire or manually define Roger's target field and matched conventional neighbour polygons (at least 3).",
     "Recalculate NDVI per field rather than across the full AOI.",
     "Compare post-2021 and post-2023 vegetation behaviour against controls.",
     "Add rainfall/weather and crop rotation controls.",
@@ -84,13 +84,13 @@
   "images": {
     "before": {
       "src": "/demo-data/before.png",
-      "label": "Before \u2014 pre-practice-change",
+      "label": "Before – pre-practice-change",
       "date": "2020 growing season",
       "caption": "Placeholder visual. Replace with a notebook-exported Sentinel-2 composite if time allows."
     },
     "after": {
       "src": "/demo-data/after.png",
-      "label": "After \u2014 post-practice-change",
+      "label": "After – post-practice-change",
       "date": "2024 growing season",
       "caption": "Placeholder visual. Replace with a notebook-exported Sentinel-2 composite if time allows."
     }
@@ -103,5 +103,9 @@
   "rogerFieldSummaryPath": "/demo-data/roger_field_ndvi_summary.json",
   "rogerFieldMetadataPath": "/demo-data/roger_field_metadata.json",
   "rogerVsAoiTimeseriesPath": "/demo-data/roger_vs_aoi_ndvi_timeseries.json",
-  "rogerVsAoiSummaryPath": "/demo-data/roger_vs_aoi_ndvi_summary.json"
+  "rogerVsAoiSummaryPath": "/demo-data/roger_vs_aoi_ndvi_summary.json",
+  "fieldControlLongPath": "/demo-data/field_control_ndvi_long.json",
+  "fieldControlMetadataPath": "/demo-data/field_control_metadata.json",
+  "rogerCleanVsControlsTimeseriesPath": "/demo-data/roger_clean_vs_controls_ndvi_timeseries.json",
+  "rogerCleanVsControlsSummaryPath": "/demo-data/roger_clean_vs_controls_ndvi_summary.json"
 }
