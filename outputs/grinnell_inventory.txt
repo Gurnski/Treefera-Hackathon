@@ -1,0 +1,13 @@
+ROOT: C:\Users\danie\Desktop\Treefera Hackathon\data\roger_farm\sentinel2\B_grinnell_iowa
+
+=== TOP LEVEL ===
+
+
+=== FILE TYPE COUNTS ===
+
+
+=== LARGEST FILES ===
+
+
+=== KEY FILES ===
+
